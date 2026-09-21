@@ -8,6 +8,11 @@
 
 ---
 
+### ♞ Knight's Tour Chessboard Grid:
+![Knight's Tour Chessboard](knight-chessboard.svg)
+
+---
+
 ### 🐍 Contribution Graph Snake:
 ![Snake Animation](https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/output/github-contribution-grid-snake-dark.svg)
 

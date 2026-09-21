@@ -1,0 +1,553 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; rx: 12px; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #58a6ff; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #8b949e; }
+      .knight-icon { fill: #a371f7; filter: drop-shadow(0 0 10px #a371f7) drop-shadow(0 0 20px #39d353); }
+      
+      .knight-container {
+        animation: knightJump 16s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+        transform-origin: center;
+      }
+      
+      #cell_0_0 { animation: glow_0_0 16s infinite; } #cell_0_1 { animation: glow_0_1 16s infinite; } #cell_0_2 { animation: glow_0_2 16s infinite; } #cell_0_4 { animation: glow_0_4 16s infinite; } #cell_0_6 { animation: glow_0_6 16s infinite; } #cell_1_0 { animation: glow_1_0 16s infinite; } #cell_1_2 { animation: glow_1_2 16s infinite; } #cell_1_3 { animation: glow_1_3 16s infinite; } #cell_1_4 { animation: glow_1_4 16s infinite; } #cell_1_6 { animation: glow_1_6 16s infinite; } #cell_2_0 { animation: glow_2_0 16s infinite; } #cell_2_1 { animation: glow_2_1 16s infinite; } #cell_2_2 { animation: glow_2_2 16s infinite; } #cell_2_3 { animation: glow_2_3 16s infinite; } #cell_2_5 { animation: glow_2_5 16s infinite; } #cell_3_0 { animation: glow_3_0 16s infinite; } #cell_3_1 { animation: glow_3_1 16s infinite; } #cell_3_2 { animation: glow_3_2 16s infinite; } #cell_3_3 { animation: glow_3_3 16s infinite; } #cell_3_7 { animation: glow_3_7 16s infinite; }
+      
+      @keyframes knightJump {
+  0.0% { transform: translate(244.0px, 42.0px) scale(1); }
+  2.5% { transform: translate(290.0px, 40.0px) scale(1.25); }
+  5.0% { transform: translate(336.0px, 88.0px) scale(1); }
+  7.5% { transform: translate(290.0px, 86.0px) scale(1.25); }
+  10.0% { transform: translate(244.0px, 134.0px) scale(1); }
+  12.5% { transform: translate(290.0px, 132.0px) scale(1.25); }
+  15.0% { transform: translate(336.0px, 180.0px) scale(1); }
+  17.5% { transform: translate(359.0px, 109.0px) scale(1.25); }
+  20.0% { transform: translate(382.0px, 88.0px) scale(1); }
+  22.5% { transform: translate(336.0px, 40.0px) scale(1.25); }
+  25.0% { transform: translate(290.0px, 42.0px) scale(1); }
+  27.5% { transform: translate(313.0px, 63.0px) scale(1.25); }
+  30.0% { transform: translate(336.0px, 134.0px) scale(1); }
+  32.5% { transform: translate(290.0px, 132.0px) scale(1.25); }
+  35.0% { transform: translate(244.0px, 180.0px) scale(1); }
+  37.5% { transform: translate(267.0px, 132.0px) scale(1.25); }
+  40.0% { transform: translate(290.0px, 134.0px) scale(1); }
+  42.5% { transform: translate(313.0px, 63.0px) scale(1.25); }
+  45.0% { transform: translate(336.0px, 42.0px) scale(1); }
+  47.5% { transform: translate(290.0px, 40.0px) scale(1.25); }
+  50.0% { transform: translate(244.0px, 88.0px) scale(1); }
+  52.5% { transform: translate(267.0px, 109.0px) scale(1.25); }
+  55.0% { transform: translate(290.0px, 180.0px) scale(1); }
+  57.5% { transform: translate(336.0px, 132.0px) scale(1.25); }
+  60.0% { transform: translate(382.0px, 134.0px) scale(1); }
+  62.5% { transform: translate(405.0px, 63.0px) scale(1.25); }
+  65.0% { transform: translate(428.0px, 42.0px) scale(1); }
+  67.5% { transform: translate(474.0px, 40.0px) scale(1.25); }
+  70.0% { transform: translate(520.0px, 88.0px) scale(1); }
+  72.5% { transform: translate(543.0px, 109.0px) scale(1.25); }
+  75.0% { transform: translate(566.0px, 180.0px) scale(1); }
+  77.5% { transform: translate(520.0px, 132.0px) scale(1.25); }
+  80.0% { transform: translate(474.0px, 134.0px) scale(1); }
+  82.5% { transform: translate(497.0px, 63.0px) scale(1.25); }
+  85.0% { transform: translate(520.0px, 42.0px) scale(1); }
+  87.5% { transform: translate(474.0px, 40.0px) scale(1.25); }
+  90.0% { transform: translate(428.0px, 88.0px) scale(1); }
+  92.5% { transform: translate(405.0px, 109.0px) scale(1.25); }
+  95.0% { transform: translate(382.0px, 180.0px) scale(1); }
+  97.5% { transform: translate(359.0px, 109.0px) scale(1.25); }
+  100% { transform: translate(336.0px, 88.0px) scale(1); }
+} @keyframes glow_0_0 {
+  0.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_0_1 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_0_2 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_0_4 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_0_6 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_1_0 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_1_2 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+} @keyframes glow_1_3 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_1_4 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_1_6 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_2_0 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_2_1 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_2_2 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_2_3 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_2_5 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_3_0 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #21262d; filter: none; }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_3_1 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_3_2 {
+  0.0% { fill: #21262d; filter: none; }
+  5.0% { fill: #21262d; filter: none; }
+  10.0% { fill: #21262d; filter: none; }
+  15.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  20.0% { fill: #21262d; filter: none; }
+  25.0% { fill: #21262d; filter: none; }
+  30.0% { fill: #21262d; filter: none; }
+  35.0% { fill: #21262d; filter: none; }
+  40.0% { fill: #21262d; filter: none; }
+  45.0% { fill: #21262d; filter: none; }
+  50.0% { fill: #21262d; filter: none; }
+  55.0% { fill: #21262d; filter: none; }
+  60.0% { fill: #21262d; filter: none; }
+  65.0% { fill: #21262d; filter: none; }
+  70.0% { fill: #21262d; filter: none; }
+  75.0% { fill: #21262d; filter: none; }
+  80.0% { fill: #21262d; filter: none; }
+  85.0% { fill: #21262d; filter: none; }
+  90.0% { fill: #21262d; filter: none; }
+  95.0% { fill: #21262d; filter: none; }
+  100.0% { fill: #21262d; filter: none; }
+} @keyframes glow_3_3 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #161b22; filter: none; }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  100.0% { fill: #161b22; filter: none; }
+} @keyframes glow_3_7 {
+  0.0% { fill: #161b22; filter: none; }
+  5.0% { fill: #161b22; filter: none; }
+  10.0% { fill: #161b22; filter: none; }
+  15.0% { fill: #161b22; filter: none; }
+  20.0% { fill: #161b22; filter: none; }
+  25.0% { fill: #161b22; filter: none; }
+  30.0% { fill: #161b22; filter: none; }
+  35.0% { fill: #161b22; filter: none; }
+  40.0% { fill: #161b22; filter: none; }
+  45.0% { fill: #161b22; filter: none; }
+  50.0% { fill: #161b22; filter: none; }
+  55.0% { fill: #161b22; filter: none; }
+  60.0% { fill: #161b22; filter: none; }
+  65.0% { fill: #161b22; filter: none; }
+  70.0% { fill: #161b22; filter: none; }
+  75.0% { fill: #39d353; filter: drop-shadow(0 0 6px #39d353); }
+  80.0% { fill: #161b22; filter: none; }
+  85.0% { fill: #161b22; filter: none; }
+  90.0% { fill: #161b22; filter: none; }
+  95.0% { fill: #161b22; filter: none; }
+  100.0% { fill: #161b22; filter: none; }
+}
+    </style>
+    
+    <linearGradient id="boardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="820" height="400" class="bg" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Title & Labels -->
+  <text x="30" y="45" class="title">⚔️ Knight's Tour - Chessboard Grid</text>
+  <text x="30" y="70" class="subtitle">L-Shaped Jumps across the GitHub Board</text>
+
+  <!-- Stats Pills -->
+  <g transform="translate(30, 110)">
+    <rect width="170" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="15" y="23" font-family="sans-serif" font-size="12" fill="#8b949e">Piece: <tspan fill="#a371f7" font-weight="bold">Knight (♞)</tspan></text>
+  </g>
+  <g transform="translate(30, 160)">
+    <rect width="170" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="15" y="23" font-family="sans-serif" font-size="12" fill="#8b949e">Move Pattern: <tspan fill="#39d353" font-weight="bold">(±1, ±2) L-Jump</tspan></text>
+  </g>
+  <g transform="translate(30, 210)">
+    <rect width="170" height="36" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="15" y="23" font-family="sans-serif" font-size="12" fill="#8b949e">Board: <tspan fill="#58a6ff" font-weight="bold">8x8 Chessboard</tspan></text>
+  </g>
+  
+  <g transform="translate(30, 270)">
+    <!-- Legend -->
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#161b22" stroke="#30363d"/>
+    <text x="22" y="11" font-family="sans-serif" font-size="11" fill="#8b949e">Dark Cell</text>
+    
+    <rect x="90" y="0" width="14" height="14" rx="3" fill="#21262d" stroke="#30363d"/>
+    <text x="112" y="11" font-family="sans-serif" font-size="11" fill="#8b949e">Light Cell</text>
+
+    <rect x="0" y="25" width="14" height="14" rx="3" fill="#39d353"/>
+    <text x="22" y="36" font-family="sans-serif" font-size="11" fill="#39d353">Knight Impact</text>
+  </g>
+
+  <!-- Chessboard Background Outer Shadow -->
+  <rect x="232" y="32" width="378" height="378" rx="12" fill="url(#boardGlow)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Chessboard Grid Cells -->
+  <g>
+    <rect id="cell_0_0" x="240" y="40" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_0_1" x="286" y="40" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_0_2" x="332" y="40" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_0_3" x="378" y="40" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_0_4" x="424" y="40" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_0_5" x="470" y="40" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_0_6" x="516" y="40" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_0_7" x="562" y="40" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_0" x="240" y="86" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_1" x="286" y="86" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_2" x="332" y="86" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_3" x="378" y="86" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_4" x="424" y="86" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_5" x="470" y="86" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_6" x="516" y="86" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_1_7" x="562" y="86" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_0" x="240" y="132" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_1" x="286" y="132" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_2" x="332" y="132" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_3" x="378" y="132" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_4" x="424" y="132" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_5" x="470" y="132" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_6" x="516" y="132" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_2_7" x="562" y="132" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_0" x="240" y="178" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_1" x="286" y="178" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_2" x="332" y="178" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_3" x="378" y="178" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_4" x="424" y="178" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_5" x="470" y="178" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_6" x="516" y="178" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_3_7" x="562" y="178" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_0" x="240" y="224" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_1" x="286" y="224" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_2" x="332" y="224" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_3" x="378" y="224" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_4" x="424" y="224" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_5" x="470" y="224" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_6" x="516" y="224" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_4_7" x="562" y="224" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_0" x="240" y="270" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_1" x="286" y="270" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_2" x="332" y="270" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_3" x="378" y="270" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_4" x="424" y="270" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_5" x="470" y="270" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_6" x="516" y="270" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_5_7" x="562" y="270" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_0" x="240" y="316" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_1" x="286" y="316" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_2" x="332" y="316" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_3" x="378" y="316" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_4" x="424" y="316" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_5" x="470" y="316" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_6" x="516" y="316" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_6_7" x="562" y="316" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_0" x="240" y="362" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_1" x="286" y="362" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_2" x="332" y="362" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_3" x="378" y="362" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_4" x="424" y="362" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_5" x="470" y="362" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_6" x="516" y="362" width="40" height="40" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/> <rect id="cell_7_7" x="562" y="362" width="40" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  </g>
+
+  <!-- Animated Knight Piece -->
+  <g class="knight-container">
+    <!-- Detailed Knight SVG Path -->
+    <path class="knight-icon" d="M 19 3 C 14.5 3 10.5 6 9.5 10.5 C 9 12.5 9 15 7 16.5 C 5.5 17.5 3 17 3 19.5 C 3 21 5 21 6.5 20.5 C 8 20 10 19 12 19.5 C 13.5 20 14 21.5 14 23 C 14 25.5 12.5 27 11 28.5 C 9.5 30 9 32 10 33.5 C 11 35 13 35 15 35 C 20 35 25 32 27 27 C 28.5 23 28 17.5 26.5 13 C 25 8.5 22.5 3 19 3 Z M 16 8 C 17.1 8 18 8.9 18 10 C 18 11.1 17.1 12 16 12 C 14.9 12 14 11.1 14 10 C 14 8.9 14.9 8 16 8 Z" transform="scale(0.9)"/>
+  </g>
+</svg>
