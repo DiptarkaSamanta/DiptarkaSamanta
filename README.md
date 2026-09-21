@@ -35,9 +35,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DiptarkaSamanta&theme=dark" alt="GitHub Streak Stats" />
 </p>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiptarkaSamanta&layout=compact&theme=dark" alt="Most Used Languages" />
-</p>
 
 ---
 
