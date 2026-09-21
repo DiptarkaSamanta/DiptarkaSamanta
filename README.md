@@ -3,6 +3,7 @@
 ### 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/diptarkasamanta/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diptarka-samanta)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/DiptarkaSamanta/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:diptarka.samanta.aiml671@gmail.com)
 
 ---
@@ -30,11 +31,16 @@
 
 ---
 
-### 📊 GitHub Stats:
+### 📊 Stats:
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DiptarkaSamanta&theme=dark" alt="GitHub Streak Stats" />
 </p>
 
+<p align="left">
+  <a href="https://leetcode.com/u/DiptarkaSamanta/">
+    <img src="https://leetcode-stats-api.herokuapp.com/DiptarkaSamanta" alt="LeetCode Stats" />
+  </a>
+</p>
 
 ---
 
