@@ -9,7 +9,7 @@
 ---
 
 ### ♞ Knight's Tour Chessboard Grid:
-![Knight's Tour Chessboard](https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/knight-chessboard.svg)
+![Knight's Tour Chessboard](./knight-chessboard.svg)
 
 ---
 

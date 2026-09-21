@@ -22,8 +22,6 @@
         filter: drop-shadow(0 0 6px #38bdf8);
       }
       
-      #sq_0_0 { animation: glow_sq_0_0 24s linear infinite; } #sq_0_1 { animation: glow_sq_0_1 24s linear infinite; } #sq_0_2 { animation: glow_sq_0_2 24s linear infinite; } #sq_0_4 { animation: glow_sq_0_4 24s linear infinite; } #sq_0_6 { animation: glow_sq_0_6 24s linear infinite; } #sq_1_0 { animation: glow_sq_1_0 24s linear infinite; } #sq_1_2 { animation: glow_sq_1_2 24s linear infinite; } #sq_1_3 { animation: glow_sq_1_3 24s linear infinite; } #sq_1_4 { animation: glow_sq_1_4 24s linear infinite; } #sq_1_6 { animation: glow_sq_1_6 24s linear infinite; } #sq_2_0 { animation: glow_sq_2_0 24s linear infinite; } #sq_2_1 { animation: glow_sq_2_1 24s linear infinite; } #sq_2_2 { animation: glow_sq_2_2 24s linear infinite; } #sq_2_3 { animation: glow_sq_2_3 24s linear infinite; } #sq_2_5 { animation: glow_sq_2_5 24s linear infinite; } #sq_3_0 { animation: glow_sq_3_0 24s linear infinite; } #sq_3_1 { animation: glow_sq_3_1 24s linear infinite; } #sq_3_2 { animation: glow_sq_3_2 24s linear infinite; } #sq_3_3 { animation: glow_sq_3_3 24s linear infinite; } #sq_3_7 { animation: glow_sq_3_7 24s linear infinite; } #sq_4_1 { animation: glow_sq_4_1 24s linear infinite; } #sq_4_3 { animation: glow_sq_4_3 24s linear infinite; } #sq_4_5 { animation: glow_sq_4_5 24s linear infinite; } #sq_5_0 { animation: glow_sq_5_0 24s linear infinite; } #sq_5_1 { animation: glow_sq_5_1 24s linear infinite; } #sq_5_3 { animation: glow_sq_5_3 24s linear infinite; } #sq_5_7 { animation: glow_sq_5_7 24s linear infinite; } #sq_6_2 { animation: glow_sq_6_2 24s linear infinite; } #sq_6_4 { animation: glow_sq_6_4 24s linear infinite; } #sq_6_6 { animation: glow_sq_6_6 24s linear infinite; } #sq_7_0 { animation: glow_sq_7_0 24s linear infinite; } #sq_7_2 { animation: glow_sq_7_2 24s linear infinite; } #sq_7_4 { animation: glow_sq_7_4 24s linear infinite; } #sq_7_6 { animation: glow_sq_7_6 24s linear infinite; }
-      
       @keyframes knightMovement {
   0.00% { transform: translate(414.0px, 27.0px) scale(1); }
   1.25% { transform: translate(462.0px, -8.0px) scale(1.3); }
@@ -98,7 +96,8 @@
   97.22% { transform: translate(414.0px, 75.0px) scale(1); }
   98.47% { transform: translate(414.0px, -8.0px) scale(1.3); }
   100% { transform: translate(414.0px, 27.0px) scale(1); }
-} @keyframes drawPath {
+}
+@keyframes drawPath {
   0% { stroke-dashoffset: 3694.5; }
   2.78% { stroke-dashoffset: 3587.2; }
   5.56% { stroke-dashoffset: 3479.8; }
@@ -136,1299 +135,1367 @@
   94.44% { stroke-dashoffset: 155.3; }
   97.22% { stroke-dashoffset: 48.0; }
   100.00% { stroke-dashoffset: 0.0; }
-} @keyframes glow_sq_0_0 {
-  0.00% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  2.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  5.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  8.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  11.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  13.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  16.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  19.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-} @keyframes glow_sq_0_1 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  16.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  19.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_0_2 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_0_4 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_0_6 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_1_0 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_1_2 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  5.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  8.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  11.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  13.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  16.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  19.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_1_3 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  13.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  16.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  19.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_1_4 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_1_6 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_2_0 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  8.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  11.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  13.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  16.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  19.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_2_1 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_2_2 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  19.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_2_3 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_2_5 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_3_0 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_3_1 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_3_2 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  11.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  13.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  16.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  19.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  22.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  25.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  27.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  30.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  33.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  36.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  38.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  41.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_3_3 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  50.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  52.78% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_3_7 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  44.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  47.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  50.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  52.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  55.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_4_1 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  58.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_4_3 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #334155; stroke: #64748b; filter: none; }
-  58.33% { fill: #334155; stroke: #64748b; filter: none; }
-  61.11% { fill: #334155; stroke: #64748b; filter: none; }
-  63.89% { fill: #334155; stroke: #64748b; filter: none; }
-  66.67% { fill: #334155; stroke: #64748b; filter: none; }
-  69.44% { fill: #334155; stroke: #64748b; filter: none; }
-  72.22% { fill: #334155; stroke: #64748b; filter: none; }
-  75.00% { fill: #334155; stroke: #64748b; filter: none; }
-  77.78% { fill: #334155; stroke: #64748b; filter: none; }
-  80.56% { fill: #334155; stroke: #64748b; filter: none; }
-  83.33% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_4_5 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #334155; stroke: #64748b; filter: none; }
-  58.33% { fill: #334155; stroke: #64748b; filter: none; }
-  61.11% { fill: #334155; stroke: #64748b; filter: none; }
-  63.89% { fill: #334155; stroke: #64748b; filter: none; }
-  66.67% { fill: #334155; stroke: #64748b; filter: none; }
-  69.44% { fill: #334155; stroke: #64748b; filter: none; }
-  72.22% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_5_0 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #334155; stroke: #64748b; filter: none; }
-  58.33% { fill: #334155; stroke: #64748b; filter: none; }
-  61.11% { fill: #334155; stroke: #64748b; filter: none; }
-  63.89% { fill: #334155; stroke: #64748b; filter: none; }
-  66.67% { fill: #334155; stroke: #64748b; filter: none; }
-  69.44% { fill: #334155; stroke: #64748b; filter: none; }
-  72.22% { fill: #334155; stroke: #64748b; filter: none; }
-  75.00% { fill: #334155; stroke: #64748b; filter: none; }
-  77.78% { fill: #334155; stroke: #64748b; filter: none; }
-  80.56% { fill: #334155; stroke: #64748b; filter: none; }
-  83.33% { fill: #334155; stroke: #64748b; filter: none; }
-  86.11% { fill: #334155; stroke: #64748b; filter: none; }
-  88.89% { fill: #334155; stroke: #64748b; filter: none; }
-  91.67% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_5_1 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  50.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  52.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  55.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  58.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  61.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  63.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  66.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  69.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  72.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  75.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  77.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  80.56% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_5_3 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  50.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  52.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  55.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  58.33% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  61.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_5_7 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  50.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  52.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  55.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  58.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  61.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  63.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  66.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  69.44% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_6_2 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  50.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  52.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  55.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  58.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  61.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  63.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  66.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  69.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  72.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  75.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  77.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  80.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  83.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  86.11% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_6_4 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  50.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  52.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  55.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  58.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  61.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  63.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  66.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  69.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  72.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  75.00% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_6_6 {
-  0.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  2.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  5.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  8.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  11.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  13.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  16.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  19.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  22.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  25.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  27.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  30.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  33.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  36.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  38.89% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  41.67% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  44.44% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  47.22% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  50.00% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  52.78% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  55.56% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  58.33% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  61.11% { fill: #e2e8f0; stroke: #64748b; filter: none; }
-  63.89% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_7_0 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #334155; stroke: #64748b; filter: none; }
-  58.33% { fill: #334155; stroke: #64748b; filter: none; }
-  61.11% { fill: #334155; stroke: #64748b; filter: none; }
-  63.89% { fill: #334155; stroke: #64748b; filter: none; }
-  66.67% { fill: #334155; stroke: #64748b; filter: none; }
-  69.44% { fill: #334155; stroke: #64748b; filter: none; }
-  72.22% { fill: #334155; stroke: #64748b; filter: none; }
-  75.00% { fill: #334155; stroke: #64748b; filter: none; }
-  77.78% { fill: #334155; stroke: #64748b; filter: none; }
-  80.56% { fill: #334155; stroke: #64748b; filter: none; }
-  83.33% { fill: #334155; stroke: #64748b; filter: none; }
-  86.11% { fill: #334155; stroke: #64748b; filter: none; }
-  88.89% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_7_2 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #334155; stroke: #64748b; filter: none; }
-  58.33% { fill: #334155; stroke: #64748b; filter: none; }
-  61.11% { fill: #334155; stroke: #64748b; filter: none; }
-  63.89% { fill: #334155; stroke: #64748b; filter: none; }
-  66.67% { fill: #334155; stroke: #64748b; filter: none; }
-  69.44% { fill: #334155; stroke: #64748b; filter: none; }
-  72.22% { fill: #334155; stroke: #64748b; filter: none; }
-  75.00% { fill: #334155; stroke: #64748b; filter: none; }
-  77.78% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_7_4 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #334155; stroke: #64748b; filter: none; }
-  58.33% { fill: #334155; stroke: #64748b; filter: none; }
-  61.11% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  63.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  66.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-} @keyframes glow_sq_7_6 {
-  0.00% { fill: #334155; stroke: #64748b; filter: none; }
-  2.78% { fill: #334155; stroke: #64748b; filter: none; }
-  5.56% { fill: #334155; stroke: #64748b; filter: none; }
-  8.33% { fill: #334155; stroke: #64748b; filter: none; }
-  11.11% { fill: #334155; stroke: #64748b; filter: none; }
-  13.89% { fill: #334155; stroke: #64748b; filter: none; }
-  16.67% { fill: #334155; stroke: #64748b; filter: none; }
-  19.44% { fill: #334155; stroke: #64748b; filter: none; }
-  22.22% { fill: #334155; stroke: #64748b; filter: none; }
-  25.00% { fill: #334155; stroke: #64748b; filter: none; }
-  27.78% { fill: #334155; stroke: #64748b; filter: none; }
-  30.56% { fill: #334155; stroke: #64748b; filter: none; }
-  33.33% { fill: #334155; stroke: #64748b; filter: none; }
-  36.11% { fill: #334155; stroke: #64748b; filter: none; }
-  38.89% { fill: #334155; stroke: #64748b; filter: none; }
-  41.67% { fill: #334155; stroke: #64748b; filter: none; }
-  44.44% { fill: #334155; stroke: #64748b; filter: none; }
-  47.22% { fill: #334155; stroke: #64748b; filter: none; }
-  50.00% { fill: #334155; stroke: #64748b; filter: none; }
-  52.78% { fill: #334155; stroke: #64748b; filter: none; }
-  55.56% { fill: #334155; stroke: #64748b; filter: none; }
-  58.33% { fill: #334155; stroke: #64748b; filter: none; }
-  61.11% { fill: #334155; stroke: #64748b; filter: none; }
-  63.89% { fill: #334155; stroke: #64748b; filter: none; }
-  66.67% { fill: #22c55e; stroke: #00ff66; filter: drop-shadow(0 0 10px #22c55e); }
-  69.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  72.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  75.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  77.78% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  80.56% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  83.33% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  86.11% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  88.89% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  91.67% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  94.44% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  97.22% { fill: #0f766e; stroke: #14b8a6; filter: none; }
-  100.00% { fill: #0f766e; stroke: #14b8a6; filter: none; }
 }
+@keyframes glow_sq_0_0 {
+  0.00% { fill: #22c55e; stroke: #00ff66; }
+  2.78% { fill: #0f766e; stroke: #14b8a6; }
+  5.56% { fill: #0f766e; stroke: #14b8a6; }
+  8.33% { fill: #0f766e; stroke: #14b8a6; }
+  11.11% { fill: #0f766e; stroke: #14b8a6; }
+  13.89% { fill: #0f766e; stroke: #14b8a6; }
+  16.67% { fill: #0f766e; stroke: #14b8a6; }
+  19.44% { fill: #0f766e; stroke: #14b8a6; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #22c55e; stroke: #00ff66; }
+}
+#sq_0_0 { animation: glow_sq_0_0 24s linear infinite; }
+@keyframes glow_sq_0_1 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #22c55e; stroke: #00ff66; }
+  16.67% { fill: #0f766e; stroke: #14b8a6; }
+  19.44% { fill: #0f766e; stroke: #14b8a6; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_0_1 { animation: glow_sq_0_1 24s linear infinite; }
+@keyframes glow_sq_0_2 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #22c55e; stroke: #00ff66; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_0_2 { animation: glow_sq_0_2 24s linear infinite; }
+@keyframes glow_sq_0_4 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #22c55e; stroke: #00ff66; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_0_4 { animation: glow_sq_0_4 24s linear infinite; }
+@keyframes glow_sq_0_6 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #22c55e; stroke: #00ff66; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_0_6 { animation: glow_sq_0_6 24s linear infinite; }
+@keyframes glow_sq_1_0 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #22c55e; stroke: #00ff66; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #22c55e; stroke: #00ff66; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_1_0 { animation: glow_sq_1_0 24s linear infinite; }
+@keyframes glow_sq_1_2 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #22c55e; stroke: #00ff66; }
+  5.56% { fill: #0f766e; stroke: #14b8a6; }
+  8.33% { fill: #0f766e; stroke: #14b8a6; }
+  11.11% { fill: #0f766e; stroke: #14b8a6; }
+  13.89% { fill: #0f766e; stroke: #14b8a6; }
+  16.67% { fill: #0f766e; stroke: #14b8a6; }
+  19.44% { fill: #0f766e; stroke: #14b8a6; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_1_2 { animation: glow_sq_1_2 24s linear infinite; }
+@keyframes glow_sq_1_3 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #22c55e; stroke: #00ff66; }
+  13.89% { fill: #0f766e; stroke: #14b8a6; }
+  16.67% { fill: #0f766e; stroke: #14b8a6; }
+  19.44% { fill: #0f766e; stroke: #14b8a6; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_1_3 { animation: glow_sq_1_3 24s linear infinite; }
+@keyframes glow_sq_1_4 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #22c55e; stroke: #00ff66; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_1_4 { animation: glow_sq_1_4 24s linear infinite; }
+@keyframes glow_sq_1_6 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #22c55e; stroke: #00ff66; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_1_6 { animation: glow_sq_1_6 24s linear infinite; }
+@keyframes glow_sq_2_0 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #22c55e; stroke: #00ff66; }
+  8.33% { fill: #0f766e; stroke: #14b8a6; }
+  11.11% { fill: #0f766e; stroke: #14b8a6; }
+  13.89% { fill: #0f766e; stroke: #14b8a6; }
+  16.67% { fill: #0f766e; stroke: #14b8a6; }
+  19.44% { fill: #0f766e; stroke: #14b8a6; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_2_0 { animation: glow_sq_2_0 24s linear infinite; }
+@keyframes glow_sq_2_1 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #22c55e; stroke: #00ff66; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_2_1 { animation: glow_sq_2_1 24s linear infinite; }
+@keyframes glow_sq_2_2 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #22c55e; stroke: #00ff66; }
+  19.44% { fill: #0f766e; stroke: #14b8a6; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_2_2 { animation: glow_sq_2_2 24s linear infinite; }
+@keyframes glow_sq_2_3 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #22c55e; stroke: #00ff66; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_2_3 { animation: glow_sq_2_3 24s linear infinite; }
+@keyframes glow_sq_2_5 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #22c55e; stroke: #00ff66; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_2_5 { animation: glow_sq_2_5 24s linear infinite; }
+@keyframes glow_sq_3_0 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #22c55e; stroke: #00ff66; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_3_0 { animation: glow_sq_3_0 24s linear infinite; }
+@keyframes glow_sq_3_1 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #22c55e; stroke: #00ff66; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #22c55e; stroke: #00ff66; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_3_1 { animation: glow_sq_3_1 24s linear infinite; }
+@keyframes glow_sq_3_2 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #22c55e; stroke: #00ff66; }
+  11.11% { fill: #0f766e; stroke: #14b8a6; }
+  13.89% { fill: #0f766e; stroke: #14b8a6; }
+  16.67% { fill: #0f766e; stroke: #14b8a6; }
+  19.44% { fill: #0f766e; stroke: #14b8a6; }
+  22.22% { fill: #0f766e; stroke: #14b8a6; }
+  25.00% { fill: #0f766e; stroke: #14b8a6; }
+  27.78% { fill: #0f766e; stroke: #14b8a6; }
+  30.56% { fill: #0f766e; stroke: #14b8a6; }
+  33.33% { fill: #0f766e; stroke: #14b8a6; }
+  36.11% { fill: #0f766e; stroke: #14b8a6; }
+  38.89% { fill: #0f766e; stroke: #14b8a6; }
+  41.67% { fill: #0f766e; stroke: #14b8a6; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_3_2 { animation: glow_sq_3_2 24s linear infinite; }
+@keyframes glow_sq_3_3 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #e2e8f0; stroke: #64748b; }
+  50.00% { fill: #e2e8f0; stroke: #64748b; }
+  52.78% { fill: #22c55e; stroke: #00ff66; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_3_3 { animation: glow_sq_3_3 24s linear infinite; }
+@keyframes glow_sq_3_7 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #22c55e; stroke: #00ff66; }
+  44.44% { fill: #0f766e; stroke: #14b8a6; }
+  47.22% { fill: #0f766e; stroke: #14b8a6; }
+  50.00% { fill: #0f766e; stroke: #14b8a6; }
+  52.78% { fill: #0f766e; stroke: #14b8a6; }
+  55.56% { fill: #0f766e; stroke: #14b8a6; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_3_7 { animation: glow_sq_3_7 24s linear infinite; }
+@keyframes glow_sq_4_1 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #22c55e; stroke: #00ff66; }
+  58.33% { fill: #0f766e; stroke: #14b8a6; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_4_1 { animation: glow_sq_4_1 24s linear infinite; }
+@keyframes glow_sq_4_3 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #334155; stroke: #64748b; }
+  58.33% { fill: #334155; stroke: #64748b; }
+  61.11% { fill: #334155; stroke: #64748b; }
+  63.89% { fill: #334155; stroke: #64748b; }
+  66.67% { fill: #334155; stroke: #64748b; }
+  69.44% { fill: #334155; stroke: #64748b; }
+  72.22% { fill: #334155; stroke: #64748b; }
+  75.00% { fill: #334155; stroke: #64748b; }
+  77.78% { fill: #334155; stroke: #64748b; }
+  80.56% { fill: #334155; stroke: #64748b; }
+  83.33% { fill: #22c55e; stroke: #00ff66; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_4_3 { animation: glow_sq_4_3 24s linear infinite; }
+@keyframes glow_sq_4_5 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #334155; stroke: #64748b; }
+  58.33% { fill: #334155; stroke: #64748b; }
+  61.11% { fill: #334155; stroke: #64748b; }
+  63.89% { fill: #334155; stroke: #64748b; }
+  66.67% { fill: #334155; stroke: #64748b; }
+  69.44% { fill: #334155; stroke: #64748b; }
+  72.22% { fill: #22c55e; stroke: #00ff66; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_4_5 { animation: glow_sq_4_5 24s linear infinite; }
+@keyframes glow_sq_5_0 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #334155; stroke: #64748b; }
+  58.33% { fill: #334155; stroke: #64748b; }
+  61.11% { fill: #334155; stroke: #64748b; }
+  63.89% { fill: #334155; stroke: #64748b; }
+  66.67% { fill: #334155; stroke: #64748b; }
+  69.44% { fill: #334155; stroke: #64748b; }
+  72.22% { fill: #334155; stroke: #64748b; }
+  75.00% { fill: #334155; stroke: #64748b; }
+  77.78% { fill: #334155; stroke: #64748b; }
+  80.56% { fill: #334155; stroke: #64748b; }
+  83.33% { fill: #334155; stroke: #64748b; }
+  86.11% { fill: #334155; stroke: #64748b; }
+  88.89% { fill: #334155; stroke: #64748b; }
+  91.67% { fill: #22c55e; stroke: #00ff66; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_5_0 { animation: glow_sq_5_0 24s linear infinite; }
+@keyframes glow_sq_5_1 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #e2e8f0; stroke: #64748b; }
+  50.00% { fill: #e2e8f0; stroke: #64748b; }
+  52.78% { fill: #e2e8f0; stroke: #64748b; }
+  55.56% { fill: #e2e8f0; stroke: #64748b; }
+  58.33% { fill: #e2e8f0; stroke: #64748b; }
+  61.11% { fill: #e2e8f0; stroke: #64748b; }
+  63.89% { fill: #e2e8f0; stroke: #64748b; }
+  66.67% { fill: #e2e8f0; stroke: #64748b; }
+  69.44% { fill: #e2e8f0; stroke: #64748b; }
+  72.22% { fill: #e2e8f0; stroke: #64748b; }
+  75.00% { fill: #e2e8f0; stroke: #64748b; }
+  77.78% { fill: #e2e8f0; stroke: #64748b; }
+  80.56% { fill: #22c55e; stroke: #00ff66; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_5_1 { animation: glow_sq_5_1 24s linear infinite; }
+@keyframes glow_sq_5_3 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #e2e8f0; stroke: #64748b; }
+  50.00% { fill: #e2e8f0; stroke: #64748b; }
+  52.78% { fill: #e2e8f0; stroke: #64748b; }
+  55.56% { fill: #e2e8f0; stroke: #64748b; }
+  58.33% { fill: #22c55e; stroke: #00ff66; }
+  61.11% { fill: #0f766e; stroke: #14b8a6; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_5_3 { animation: glow_sq_5_3 24s linear infinite; }
+@keyframes glow_sq_5_7 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #e2e8f0; stroke: #64748b; }
+  50.00% { fill: #e2e8f0; stroke: #64748b; }
+  52.78% { fill: #e2e8f0; stroke: #64748b; }
+  55.56% { fill: #e2e8f0; stroke: #64748b; }
+  58.33% { fill: #e2e8f0; stroke: #64748b; }
+  61.11% { fill: #e2e8f0; stroke: #64748b; }
+  63.89% { fill: #e2e8f0; stroke: #64748b; }
+  66.67% { fill: #e2e8f0; stroke: #64748b; }
+  69.44% { fill: #22c55e; stroke: #00ff66; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_5_7 { animation: glow_sq_5_7 24s linear infinite; }
+@keyframes glow_sq_6_2 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #e2e8f0; stroke: #64748b; }
+  50.00% { fill: #e2e8f0; stroke: #64748b; }
+  52.78% { fill: #e2e8f0; stroke: #64748b; }
+  55.56% { fill: #e2e8f0; stroke: #64748b; }
+  58.33% { fill: #e2e8f0; stroke: #64748b; }
+  61.11% { fill: #e2e8f0; stroke: #64748b; }
+  63.89% { fill: #e2e8f0; stroke: #64748b; }
+  66.67% { fill: #e2e8f0; stroke: #64748b; }
+  69.44% { fill: #e2e8f0; stroke: #64748b; }
+  72.22% { fill: #e2e8f0; stroke: #64748b; }
+  75.00% { fill: #e2e8f0; stroke: #64748b; }
+  77.78% { fill: #e2e8f0; stroke: #64748b; }
+  80.56% { fill: #e2e8f0; stroke: #64748b; }
+  83.33% { fill: #e2e8f0; stroke: #64748b; }
+  86.11% { fill: #22c55e; stroke: #00ff66; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_6_2 { animation: glow_sq_6_2 24s linear infinite; }
+@keyframes glow_sq_6_4 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #e2e8f0; stroke: #64748b; }
+  50.00% { fill: #e2e8f0; stroke: #64748b; }
+  52.78% { fill: #e2e8f0; stroke: #64748b; }
+  55.56% { fill: #e2e8f0; stroke: #64748b; }
+  58.33% { fill: #e2e8f0; stroke: #64748b; }
+  61.11% { fill: #e2e8f0; stroke: #64748b; }
+  63.89% { fill: #e2e8f0; stroke: #64748b; }
+  66.67% { fill: #e2e8f0; stroke: #64748b; }
+  69.44% { fill: #e2e8f0; stroke: #64748b; }
+  72.22% { fill: #e2e8f0; stroke: #64748b; }
+  75.00% { fill: #22c55e; stroke: #00ff66; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_6_4 { animation: glow_sq_6_4 24s linear infinite; }
+@keyframes glow_sq_6_6 {
+  0.00% { fill: #e2e8f0; stroke: #64748b; }
+  2.78% { fill: #e2e8f0; stroke: #64748b; }
+  5.56% { fill: #e2e8f0; stroke: #64748b; }
+  8.33% { fill: #e2e8f0; stroke: #64748b; }
+  11.11% { fill: #e2e8f0; stroke: #64748b; }
+  13.89% { fill: #e2e8f0; stroke: #64748b; }
+  16.67% { fill: #e2e8f0; stroke: #64748b; }
+  19.44% { fill: #e2e8f0; stroke: #64748b; }
+  22.22% { fill: #e2e8f0; stroke: #64748b; }
+  25.00% { fill: #e2e8f0; stroke: #64748b; }
+  27.78% { fill: #e2e8f0; stroke: #64748b; }
+  30.56% { fill: #e2e8f0; stroke: #64748b; }
+  33.33% { fill: #e2e8f0; stroke: #64748b; }
+  36.11% { fill: #e2e8f0; stroke: #64748b; }
+  38.89% { fill: #e2e8f0; stroke: #64748b; }
+  41.67% { fill: #e2e8f0; stroke: #64748b; }
+  44.44% { fill: #e2e8f0; stroke: #64748b; }
+  47.22% { fill: #e2e8f0; stroke: #64748b; }
+  50.00% { fill: #e2e8f0; stroke: #64748b; }
+  52.78% { fill: #e2e8f0; stroke: #64748b; }
+  55.56% { fill: #e2e8f0; stroke: #64748b; }
+  58.33% { fill: #e2e8f0; stroke: #64748b; }
+  61.11% { fill: #e2e8f0; stroke: #64748b; }
+  63.89% { fill: #22c55e; stroke: #00ff66; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_6_6 { animation: glow_sq_6_6 24s linear infinite; }
+@keyframes glow_sq_7_0 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #334155; stroke: #64748b; }
+  58.33% { fill: #334155; stroke: #64748b; }
+  61.11% { fill: #334155; stroke: #64748b; }
+  63.89% { fill: #334155; stroke: #64748b; }
+  66.67% { fill: #334155; stroke: #64748b; }
+  69.44% { fill: #334155; stroke: #64748b; }
+  72.22% { fill: #334155; stroke: #64748b; }
+  75.00% { fill: #334155; stroke: #64748b; }
+  77.78% { fill: #334155; stroke: #64748b; }
+  80.56% { fill: #334155; stroke: #64748b; }
+  83.33% { fill: #334155; stroke: #64748b; }
+  86.11% { fill: #334155; stroke: #64748b; }
+  88.89% { fill: #22c55e; stroke: #00ff66; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_7_0 { animation: glow_sq_7_0 24s linear infinite; }
+@keyframes glow_sq_7_2 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #334155; stroke: #64748b; }
+  58.33% { fill: #334155; stroke: #64748b; }
+  61.11% { fill: #334155; stroke: #64748b; }
+  63.89% { fill: #334155; stroke: #64748b; }
+  66.67% { fill: #334155; stroke: #64748b; }
+  69.44% { fill: #334155; stroke: #64748b; }
+  72.22% { fill: #334155; stroke: #64748b; }
+  75.00% { fill: #334155; stroke: #64748b; }
+  77.78% { fill: #22c55e; stroke: #00ff66; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_7_2 { animation: glow_sq_7_2 24s linear infinite; }
+@keyframes glow_sq_7_4 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #334155; stroke: #64748b; }
+  58.33% { fill: #334155; stroke: #64748b; }
+  61.11% { fill: #22c55e; stroke: #00ff66; }
+  63.89% { fill: #0f766e; stroke: #14b8a6; }
+  66.67% { fill: #0f766e; stroke: #14b8a6; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_7_4 { animation: glow_sq_7_4 24s linear infinite; }
+@keyframes glow_sq_7_6 {
+  0.00% { fill: #334155; stroke: #64748b; }
+  2.78% { fill: #334155; stroke: #64748b; }
+  5.56% { fill: #334155; stroke: #64748b; }
+  8.33% { fill: #334155; stroke: #64748b; }
+  11.11% { fill: #334155; stroke: #64748b; }
+  13.89% { fill: #334155; stroke: #64748b; }
+  16.67% { fill: #334155; stroke: #64748b; }
+  19.44% { fill: #334155; stroke: #64748b; }
+  22.22% { fill: #334155; stroke: #64748b; }
+  25.00% { fill: #334155; stroke: #64748b; }
+  27.78% { fill: #334155; stroke: #64748b; }
+  30.56% { fill: #334155; stroke: #64748b; }
+  33.33% { fill: #334155; stroke: #64748b; }
+  36.11% { fill: #334155; stroke: #64748b; }
+  38.89% { fill: #334155; stroke: #64748b; }
+  41.67% { fill: #334155; stroke: #64748b; }
+  44.44% { fill: #334155; stroke: #64748b; }
+  47.22% { fill: #334155; stroke: #64748b; }
+  50.00% { fill: #334155; stroke: #64748b; }
+  52.78% { fill: #334155; stroke: #64748b; }
+  55.56% { fill: #334155; stroke: #64748b; }
+  58.33% { fill: #334155; stroke: #64748b; }
+  61.11% { fill: #334155; stroke: #64748b; }
+  63.89% { fill: #334155; stroke: #64748b; }
+  66.67% { fill: #22c55e; stroke: #00ff66; }
+  69.44% { fill: #0f766e; stroke: #14b8a6; }
+  72.22% { fill: #0f766e; stroke: #14b8a6; }
+  75.00% { fill: #0f766e; stroke: #14b8a6; }
+  77.78% { fill: #0f766e; stroke: #14b8a6; }
+  80.56% { fill: #0f766e; stroke: #14b8a6; }
+  83.33% { fill: #0f766e; stroke: #14b8a6; }
+  86.11% { fill: #0f766e; stroke: #14b8a6; }
+  88.89% { fill: #0f766e; stroke: #14b8a6; }
+  91.67% { fill: #0f766e; stroke: #14b8a6; }
+  94.44% { fill: #0f766e; stroke: #14b8a6; }
+  97.22% { fill: #0f766e; stroke: #14b8a6; }
+  100.00% { fill: #0f766e; stroke: #14b8a6; }
+}
+#sq_7_6 { animation: glow_sq_7_6 24s linear infinite; }
     </style>
 
     <linearGradient id="boardFrame" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -1436,34 +1503,30 @@
       <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
 
-    <!-- Detailed Vector Artwork matching User's Attached Knight Piece Image -->
+    <!-- Custom Knight Piece Artwork -->
     <g id="custom-knight-piece">
-      <!-- Base platform -->
       <path fill="#e07a5f" d="M 4 42 L 36 42 L 32 38 L 8 38 Z"/>
       <path fill="#f4a261" d="M 6 38 L 34 38 L 30 30 L 10 30 Z"/>
       <path fill="#e07a5f" d="M 8 30 L 32 30 L 32 26 L 8 26 Z"/>
 
-      <!-- Body / Head -->
       <path fill="#ffe3a8" d="M 10 26 C 10 20 14 14 18 10 C 14 10 10 8 7 5 C 5 3 7 2 10 2 C 16 2 22 4 26 8 C 29 11 31 18 31 26 Z"/>
       <path fill="#ffd166" d="M 14 26 C 14 21 17 16 20 12 C 18 12 15 10 12 8 C 11 7 12 6 14 6 C 18 6 22 8 25 11 C 28 14 29 19 29 26 Z"/>
 
-      <!-- Pink / Red Mane -->
       <path fill="#e76f51" d="M 22 3 C 25 6 28 11 30 16 L 34 14 C 32 9 28 4 23 1 Z"/>
       <path fill="#e07a5f" d="M 24 5 C 27 8 29 13 31 18 L 33 17 C 31 12 28 7 24 3 Z"/>
 
-      <!-- Eye & Snout detail -->
       <path fill="#e07a5f" d="M 9 7 L 13 7 L 11 9 Z"/>
       <path fill="#e07a5f" d="M 6 12 L 10 12 L 8 13 Z"/>
     </g>
   </defs>
 
-  <!-- Main Background Container -->
+  <!-- Background -->
   <rect width="860" height="450" class="bg-card" stroke="#334155" stroke-width="2"/>
 
   <!-- Left Sidebar Panel -->
   <g transform="translate(30, 20)">
     <text x="0" y="35" class="header-title">⚔️ Knight's Tour</text>
-    <text x="0" y="60" class="header-sub">Animated Path Trajectory & Visited Cells</text>
+    <text x="0" y="60" class="header-sub">Animated Path Trajectory &amp; Visited Cells</text>
 
     <!-- Info Cards -->
     <g transform="translate(0, 90)">
@@ -1510,7 +1573,7 @@
 
   <!-- Visited Cell Step Numbers -->
   <g>
-    <text id="num_0_0" x="418" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">1</text> <text id="num_0_1" x="466" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">6</text> <text id="num_0_2" x="514" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">10</text> <text id="num_0_4" x="610" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">14</text> <text id="num_0_6" x="706" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">18</text> <text id="num_1_0" x="418" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">11</text> <text id="num_1_2" x="514" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">2</text> <text id="num_1_3" x="562" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">5</text> <text id="num_1_4" x="610" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">19</text> <text id="num_1_6" x="706" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">15</text> <text id="num_2_0" x="418" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">3</text> <text id="num_2_1" x="466" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">9</text> <text id="num_2_2" x="514" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">7</text> <text id="num_2_3" x="562" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">13</text> <text id="num_2_5" x="658" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">17</text> <text id="num_3_0" x="418" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">8</text> <text id="num_3_1" x="466" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">12</text> <text id="num_3_2" x="514" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">4</text> <text id="num_3_3" x="562" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">20</text> <text id="num_3_7" x="754" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">16</text> <text id="num_4_1" x="466" y="233" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">21</text> <text id="num_4_3" x="562" y="233" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">31</text> <text id="num_4_5" x="658" y="233" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">27</text> <text id="num_5_0" x="418" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">34</text> <text id="num_5_1" x="466" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">30</text> <text id="num_5_3" x="562" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">22</text> <text id="num_5_7" x="754" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">26</text> <text id="num_6_2" x="514" y="329" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">32</text> <text id="num_6_4" x="610" y="329" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">28</text> <text id="num_6_6" x="706" y="329" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">24</text> <text id="num_7_0" x="418" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">33</text> <text id="num_7_2" x="514" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">29</text> <text id="num_7_4" x="610" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">23</text> <text id="num_7_6" x="706" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.15">25</text>
+    <text id="num_0_0" x="416" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">1</text> <text id="num_0_1" x="464" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">6</text> <text id="num_0_2" x="512" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">10</text> <text id="num_0_4" x="608" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">14</text> <text id="num_0_6" x="704" y="41" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">18</text> <text id="num_1_0" x="416" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">11</text> <text id="num_1_2" x="512" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">2</text> <text id="num_1_3" x="560" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">5</text> <text id="num_1_4" x="608" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">19</text> <text id="num_1_6" x="704" y="89" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">15</text> <text id="num_2_0" x="416" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">3</text> <text id="num_2_1" x="464" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">9</text> <text id="num_2_2" x="512" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">7</text> <text id="num_2_3" x="560" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">13</text> <text id="num_2_5" x="656" y="137" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">17</text> <text id="num_3_0" x="416" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">8</text> <text id="num_3_1" x="464" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">12</text> <text id="num_3_2" x="512" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">4</text> <text id="num_3_3" x="560" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">20</text> <text id="num_3_7" x="752" y="185" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">16</text> <text id="num_4_1" x="464" y="233" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">21</text> <text id="num_4_3" x="560" y="233" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">31</text> <text id="num_4_5" x="656" y="233" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">27</text> <text id="num_5_0" x="416" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">34</text> <text id="num_5_1" x="464" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">30</text> <text id="num_5_3" x="560" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">22</text> <text id="num_5_7" x="752" y="281" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">26</text> <text id="num_6_2" x="512" y="329" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">32</text> <text id="num_6_4" x="608" y="329" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">28</text> <text id="num_6_6" x="704" y="329" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">24</text> <text id="num_7_0" x="416" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">33</text> <text id="num_7_2" x="512" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">29</text> <text id="num_7_4" x="608" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">23</text> <text id="num_7_6" x="704" y="377" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" opacity="0.6">25</text>
   </g>
 
   <!-- Trajectory Path Line -->
