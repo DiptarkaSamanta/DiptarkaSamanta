@@ -10,7 +10,7 @@
 
 ### ♞ Knight's Tour Chessboard Grid:
 <p align="left">
-  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/knight-chessboard.svg?v=4" alt="Knight's Tour Chessboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/knight-chessboard-v5.svg" alt="Knight's Tour Chessboard" width="100%" />
 </p>
 
 ---
