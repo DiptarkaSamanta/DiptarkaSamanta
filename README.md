@@ -38,7 +38,7 @@
 
 ### 🎯 Activity Overview:
 <p align="left">
-  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/output/github-activity-radar.svg" alt="Activity Overview Radar Chart" width="400" />
+  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/github-activity-radar.svg" alt="Activity Overview Radar Chart" width="400" />
 </p>
 
 ---
