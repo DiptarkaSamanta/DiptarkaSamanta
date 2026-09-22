@@ -36,12 +36,14 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
+### 🎯 Activity Overview:
+<p align="left">
+  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/output/github-activity-radar.svg" alt="Activity Overview Radar Chart" width="400" />
+</p>
+
 ---
 
-### 📊 Stats & Activity Overview:
-<p align="left">
-  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/profile-summary-card-output/dark/0-profile-details.svg" alt="Activity Overview Profile Details" />
-</p>
+### 📊 Stats:
 
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DiptarkaSamanta&theme=dark" alt="GitHub Streak Stats" />
