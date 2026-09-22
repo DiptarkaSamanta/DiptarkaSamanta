@@ -15,6 +15,13 @@
 
 ---
 
+### ♛ N-Queens Problem Solution:
+<p align="left">
+  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/n-queens-chessboard.svg" alt="N-Queens Problem Solution" width="100%" />
+</p>
+
+---
+
 ### 🐍 Contribution Graph Snake:
 ![Snake Animation](https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/output/github-contribution-grid-snake-dark.svg)
 
