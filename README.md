@@ -38,7 +38,11 @@
 
 ---
 
-### 📊 Stats:
+### 📊 Stats & Activity Overview:
+<p align="left">
+  <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/profile-summary-card-output/dark/0-profile-details.svg" alt="Activity Overview Profile Details" />
+</p>
+
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DiptarkaSamanta&theme=dark" alt="GitHub Streak Stats" />
 </p>
