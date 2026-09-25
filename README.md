@@ -8,6 +8,17 @@
 
 ---
 
+### 🌙 Cozy Night Coding Room Ambience:
+<p align="center">
+  <a href="https://diptarkasamanta.github.io/DiptarkaSamanta/">
+    <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/night-room.png" alt="Cozy Night Coding Room" width="100%" />
+  </a>
+  <br>
+  <em>✨ <strong><a href="https://diptarkasamanta.github.io/DiptarkaSamanta/">Click here to launch the Interactive Night Room with Live Clock & Wind/Rain Ambience</a></strong> ✨</em>
+</p>
+
+---
+
 ### ♞ Knight's Tour Chessboard Grid:
 <p align="left">
   <img src="https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/knight-chessboard.svg" alt="Knight's Tour Chessboard" width="100%" />

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Night Coding Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene">
+    <img class="room" src="night-room.png" alt="Cozy night coding room">
+
+    <!-- Live clock placed over the clock area in the artwork -->
+    <section class="live-clock" aria-label="Live clock">
+      <div class="moon">☾</div>
+      <div>
+        <div id="time">00:00:00</div>
+        <div id="ampm">AM</div>
+      </div>
+      <div id="date">Loading...</div>
+    </section>
+
+    <!-- Small atmospheric effects -->
+    <div class="wind wind-1"></div>
+    <div class="wind wind-2"></div>
+    <div class="rain"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
