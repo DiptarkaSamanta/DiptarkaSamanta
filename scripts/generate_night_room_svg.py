@@ -116,9 +116,9 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     <rect class="wind-stream wind-2" x="0" y="320" width="280" height="2" fill="url(#windGrad)"/>
   </g>
 
-  <!-- 4. Live Digital Clock Container positioned over Artwork Screen -->
-  <!-- Box at x=998 (65%), y=196 (19.2%), w=318 (20.7%), h=123 (12%) -->
-  <g transform="translate(998, 196)">
+  <!-- 4. Live Digital Clock Container positioned over Artwork Screen with perspective side tilt -->
+  <!-- Tilted in perspective to match wall / screen orientation -->
+  <g transform="translate(998, 196) rotate(-3.5) skewY(-5) skewX(3)">
     <rect class="clock-box" x="0" y="0" width="318" height="125"/>
 
     <!-- Moon Icon -->
