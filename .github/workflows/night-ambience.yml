@@ -2,8 +2,8 @@ name: Update Night Room Ambience SVG
 
 on:
   schedule:
-    # Runs every hour
-    - cron: '0 * * * *'
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
   workflow_dispatch:
   push:
     branches:
@@ -20,6 +20,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow
 
       - name: Generate Night Room Ambience SVG
         run: python scripts/generate_night_room_svg.py

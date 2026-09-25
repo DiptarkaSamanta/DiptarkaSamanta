@@ -5,8 +5,7 @@ import os
 def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="night-room.png"):
     # Current timestamp
     now = datetime.datetime.now()
-    time_str = now.strftime("%I:%M:%S")
-    ampm_str = now.strftime("%p")
+    time_str = now.strftime("%I:%M:%S %p")
     date_str = now.strftime("%a, %b %d, %Y")
 
     # Read PNG image and encode to Base64 so SVG is 100% self-contained
@@ -22,33 +21,22 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=VT323&amp;family=Inter:wght@500;600&amp;display=swap');
-
-      .clock-display {{
-        font-family: 'VT323', 'Courier New', monospace;
-      }}
-      .clock-time {{
-        font-size: 54px;
+      .digital-time {{
+        font-family: 'Courier New', Consolas, Monaco, 'Lucida Console', monospace;
+        font-size: 52px;
         font-weight: 700;
-        fill: #ffb84d;
-        letter-spacing: 3px;
-        filter: drop-shadow(0px 0px 10px rgba(255, 160, 40, 0.9));
+        fill: #ffc266;
+        letter-spacing: 2px;
+        filter: drop-shadow(0px 0px 12px rgba(255, 170, 40, 0.85));
       }}
-      .clock-ampm {{
-        font-size: 24px;
-        font-weight: 700;
-        fill: #ffa01a;
-        letter-spacing: 1px;
-        filter: drop-shadow(0px 0px 8px rgba(255, 140, 20, 0.8));
-      }}
-      .clock-date {{
-        font-family: 'Inter', sans-serif;
-        font-size: 15px;
+      .digital-date {{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 22px;
         font-weight: 600;
         fill: #ffe0b2;
-        letter-spacing: 1px;
-        opacity: 0.92;
-        filter: drop-shadow(0px 0px 6px rgba(255, 180, 80, 0.5));
+        letter-spacing: 1.5px;
+        opacity: 0.95;
+        filter: drop-shadow(0px 0px 8px rgba(255, 180, 70, 0.6));
       }}
 
       /* Dynamic Atmospheric Animations */
@@ -76,19 +64,20 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         100% {{ stroke-dashoffset: -48; }}
       }}
 
-      .clock-outer-frame {{
-        fill: #0c0805;
-        stroke: #2a1b12;
-        stroke-width: 5;
-        rx: 6px;
-        filter: drop-shadow(0 6px 16px rgba(0,0,0,0.85));
+      .clock-screen-box {{
+        fill: #0c0906;
+        fill-opacity: 0.96;
+        stroke: #3d2719;
+        stroke-width: 4;
+        rx: 8px;
+        filter: drop-shadow(0 8px 20px rgba(0,0,0,0.9));
       }}
 
-      .clock-inner-screen {{
-        fill: #0d0a07;
-        stroke: rgba(255, 180, 70, 0.3);
+      .clock-screen-inner {{
+        fill: #080604;
+        stroke: rgba(255, 170, 50, 0.25);
         stroke-width: 1.5;
-        rx: 4px;
+        rx: 5px;
       }}
     </style>
 
@@ -116,17 +105,17 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     <rect class="wind-stream wind-2" x="0" y="320" width="280" height="2" fill="url(#windGrad)"/>
   </g>
 
-  <!-- 4. Real-time Digital LED Clock display matching the wall position in artwork -->
-  <g transform="translate(782, 178)">
-    <rect class="clock-outer-frame" x="0" y="0" width="342" height="124"/>
-    <rect class="clock-inner-screen" x="4" y="4" width="334" height="116"/>
+  <!-- 4. Real-time Digital LED Clock centered on wall display screen -->
+  <g transform="translate(680, 142)">
+    <!-- Dark Frame fitting artwork screen -->
+    <rect class="clock-screen-box" x="0" y="0" width="506" height="186"/>
+    <rect class="clock-screen-inner" x="5" y="5" width="496" height="176"/>
 
-    <!-- Time text (Digital LED style) -->
-    <text class="clock-display clock-time" x="148" y="66" text-anchor="end">{time_str}</text>
-    <text class="clock-display clock-ampm" x="168" y="66" text-anchor="start">{ampm_str}</text>
+    <!-- Time text: perfectly centered -->
+    <text class="digital-time" x="253" y="98" text-anchor="middle">{time_str}</text>
 
-    <!-- Date text -->
-    <text class="clock-date" x="171" y="100" text-anchor="middle">{date_str}</text>
+    <!-- Date text: perfectly centered -->
+    <text class="digital-date" x="253" y="148" text-anchor="middle">{date_str}</text>
   </g>
 </svg>
 '''
