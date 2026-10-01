@@ -37,7 +37,7 @@
   
 
   <!-- BOTTOM LABELS: Pull requests -->
-  <text x="200" y="288" class="label-pct">6%</text>
+  <text x="200" y="288" class="label-pct">5%</text>
   <text x="200" y="304" class="label-title">Pull requests</text>
 
   <!-- LEFT LABELS: Commits -->
@@ -45,6 +45,6 @@
   <text x="45" y="172" class="label-title">Commits</text>
 
   <!-- RIGHT LABELS: Issues -->
-  <text x="355" y="154" class="label-pct">6%</text>
+  <text x="355" y="154" class="label-pct">5%</text>
   <text x="355" y="172" class="label-title">Issues</text>
 </svg>
