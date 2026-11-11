@@ -1,32 +1,42 @@
 function updateClock() {
   const now = new Date();
 
-  let hours = now.getHours();
-  const minutes = String(now.getMinutes()).padStart(2, "0");
-  const seconds = String(now.getSeconds()).padStart(2, "0");
-  const ampm = hours >= 12 ? "PM" : "AM";
+  // Explicitly sync and format in Indian Standard Time (IST)
+  const timeFormatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Kolkata",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true
+  });
 
-  hours = hours % 12 || 12;
-  hours = String(hours).padStart(2, "0");
+  const dateFormatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Kolkata",
+    weekday: "short",
+    month: "short",
+    day: "2-digit",
+    year: "numeric"
+  });
+
+  const parts = timeFormatter.formatToParts(now);
+  let hours = parts.find(p => p.type === "hour").value;
+  let minutes = parts.find(p => p.type === "minute").value;
+  let seconds = parts.find(p => p.type === "second").value;
+  let dayPeriod = parts.find(p => p.type === "dayPeriod").value;
 
   const timeEl = document.getElementById("time");
   if (timeEl) {
-    timeEl.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
+    timeEl.textContent = `${hours}:${minutes}:${seconds} ${dayPeriod}`;
   }
 
   const ampmEl = document.getElementById("ampm");
   if (ampmEl) {
-    ampmEl.textContent = ampm;
+    ampmEl.textContent = dayPeriod;
   }
 
   const dateEl = document.getElementById("date");
   if (dateEl) {
-    dateEl.textContent = now.toLocaleDateString(undefined, {
-      weekday: "short",
-      month: "short",
-      day: "2-digit",
-      year: "numeric"
-    });
+    dateEl.textContent = `${dateFormatter.format(now)} (IST)`;
   }
 }
 
