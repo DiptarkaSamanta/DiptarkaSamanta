@@ -9,15 +9,25 @@ function updateClock() {
   hours = hours % 12 || 12;
   hours = String(hours).padStart(2, "0");
 
-  document.getElementById("time").textContent = `${hours}:${minutes}:${seconds}`;
-  document.getElementById("ampm").textContent = ampm;
+  const timeEl = document.getElementById("time");
+  if (timeEl) {
+    timeEl.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
+  }
 
-  document.getElementById("date").textContent = now.toLocaleDateString(undefined, {
-    weekday: "short",
-    month: "short",
-    day: "2-digit",
-    year: "numeric"
-  });
+  const ampmEl = document.getElementById("ampm");
+  if (ampmEl) {
+    ampmEl.textContent = ampm;
+  }
+
+  const dateEl = document.getElementById("date");
+  if (dateEl) {
+    dateEl.textContent = now.toLocaleDateString(undefined, {
+      weekday: "short",
+      month: "short",
+      day: "2-digit",
+      year: "numeric"
+    });
+  }
 }
 
 updateClock();

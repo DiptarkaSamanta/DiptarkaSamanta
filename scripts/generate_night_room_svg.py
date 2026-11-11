@@ -3,8 +3,13 @@ import base64
 import os
 
 def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="night-room.png"):
-    # Current timestamp
-    now = datetime.datetime.now()
+    # Current timestamp in IST (Indian Standard Time)
+    try:
+        import zoneinfo
+        tz = zoneinfo.ZoneInfo("Asia/Kolkata")
+    except Exception:
+        tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+    now = datetime.datetime.now(tz)
     time_str = now.strftime("%I:%M:%S %p")
     date_str = now.strftime("%a, %b %d, %Y")
 
@@ -53,17 +58,6 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         100% {{ transform: translateX(1600px); }}
       }}
 
-      .rain-line {{
-        stroke: rgba(190, 215, 255, 0.3);
-        stroke-width: 1.5;
-        stroke-dasharray: 8 16;
-        animation: rainFall 0.8s linear infinite;
-      }}
-      @keyframes rainFall {{
-        0% {{ stroke-dashoffset: 0; }}
-        100% {{ stroke-dashoffset: -48; }}
-      }}
-
       .clock-screen-box {{
         fill: #0c0906;
         fill-opacity: 0.96;
@@ -86,26 +80,18 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
       <stop offset="50%" stop-color="#d2e6ff" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="transparent"/>
     </linearGradient>
-
-    <pattern id="rainPattern" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
-      <line x1="10" y1="0" x2="10" y2="60" class="rain-line" />
-      <line x1="35" y1="20" x2="35" y2="80" class="rain-line" />
-    </pattern>
   </defs>
 
   <!-- 1. Background Night Room Artwork -->
   <image href="{img_data_uri}" x="0" y="0" width="1536" height="1024" preserveAspectRatio="xMidYMid slice"/>
 
-  <!-- 2. Animated Rain Overlay over window -->
-  <rect x="0" y="0" width="1536" height="1024" fill="url(#rainPattern)" pointer-events="none" opacity="0.4"/>
-
-  <!-- 3. Animated Wind Streams -->
+  <!-- 2. Animated Wind Streams -->
   <g pointer-events="none">
     <rect class="wind-stream" x="0" y="240" width="350" height="3" fill="url(#windGrad)"/>
     <rect class="wind-stream wind-2" x="0" y="320" width="280" height="2" fill="url(#windGrad)"/>
   </g>
 
-  <!-- 4. Real-time Digital LED Clock centered on wall display screen -->
+  <!-- 3. Real-time Digital LED Clock centered on wall display screen -->
   <g transform="translate(680, 142)">
     <!-- Dark Frame fitting artwork screen -->
     <rect class="clock-screen-box" x="0" y="0" width="506" height="186"/>
