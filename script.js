@@ -26,7 +26,7 @@ function updateClock() {
 
   const timeEl = document.getElementById("time");
   if (timeEl) {
-    timeEl.textContent = `${hours}:${minutes}:${seconds} ${dayPeriod}`;
+    timeEl.textContent = `${hours} : ${minutes} : ${seconds} ${dayPeriod}`;
   }
 
   const ampmEl = document.getElementById("ampm");
