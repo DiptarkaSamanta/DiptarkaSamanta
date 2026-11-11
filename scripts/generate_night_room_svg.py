@@ -28,24 +28,66 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         # Fallback raw github url if local file missing
         img_data_uri = "https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/night-room.png"
 
-    # Generate CSS rules and SVG elements for live seconds (60s loop)
+    # Generate CSS rules and SVG elements for real-time live clock (Seconds, Minutes, Hours, AM/PM)
+    # 1. Live Seconds (60s loop)
     sec_css = []
     sec_tags = []
     for s in range(60):
         time_since_s = (cur_sec - s) % 60
         delay = -time_since_s
         sec_css.append(f".s-{s:02d} {{ animation: secShow 60s infinite {delay}s; }}")
-        sec_tags.append(f'<text class="digital-time anim-digit s-{s:02d}" x="123.5" y="19" text-anchor="middle">{s:02d}</text>')
+        sec_tags.append(f'<text class="digital-time anim-digit s-{s:02d}" x="143.0" y="22" text-anchor="middle">{s:02d}</text>')
+
+    # 2. Live Minutes (3600s loop)
+    elapsed_in_hour = cur_min * 60 + cur_sec
+    min_css = []
+    min_tags = []
+    for m in range(60):
+        time_since_m = (elapsed_in_hour - m * 60) % 3600
+        delay = -time_since_m
+        min_css.append(f".m-{m:02d} {{ animation: minShow 3600s infinite {delay}s; }}")
+        min_tags.append(f'<text class="digital-time anim-digit m-{m:02d}" x="93.0" y="22" text-anchor="middle">{m:02d}</text>')
+
+    # 3. Live Hours (43200s / 12h loop)
+    cur_h12 = (now.hour % 12) or 12
+    elapsed_in_12h = (now.hour % 12) * 3600 + now.minute * 60 + now.second
+    hour_css = []
+    hour_tags = []
+    for h in range(1, 13):
+        h_idx = h % 12
+        time_since_h = (elapsed_in_12h - h_idx * 3600) % 43200
+        delay = -time_since_h
+        hour_css.append(f".h-{h:02d} {{ animation: hourShow 43200s infinite {delay}s; }}")
+        hour_tags.append(f'<text class="digital-time anim-digit h-{h:02d}" x="43.0" y="22" text-anchor="middle">{h:02d}</text>')
+
+    # 4. Live AM / PM (86400s / 24h loop)
+    elapsed_in_day = now.hour * 3600 + now.minute * 60 + now.second
+    delay_day = -elapsed_in_day
+    ampm_css = [
+        f".ampm-am {{ animation: amShow 86400s infinite {delay_day}s; }}",
+        f".ampm-pm {{ animation: pmShow 86400s infinite {delay_day}s; }}"
+    ]
+    ampm_tags = [
+        '<text class="digital-time anim-digit ampm-am" x="173.0" y="22" text-anchor="middle">AM</text>',
+        '<text class="digital-time anim-digit ampm-pm" x="173.0" y="22" text-anchor="middle">PM</text>'
+    ]
 
     sec_rules_str = "\n      ".join(sec_css)
+    min_rules_str = "\n      ".join(min_css)
+    hour_rules_str = "\n      ".join(hour_css)
+    ampm_rules_str = "\n      ".join(ampm_css)
+
     sec_tags_str = "\n    ".join(sec_tags)
+    min_tags_str = "\n    ".join(min_tags)
+    hour_tags_str = "\n    ".join(hour_tags)
+    ampm_tags_str = "\n    ".join(ampm_tags)
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="100%" height="100%">
   <defs>
     <style>
       .digital-time {{
         font-family: 'Courier New', Consolas, Monaco, 'Lucida Console', monospace;
-        font-size: 16px;
+        font-size: 19px;
         font-weight: 700;
         fill: #ffc266;
         letter-spacing: 0.8px;
@@ -53,7 +95,7 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
       }}
       .digital-date {{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-size: 9.5px;
+        font-size: 11px;
         font-weight: 600;
         fill: #ffe0b2;
         letter-spacing: 0.6px;
@@ -78,8 +120,30 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         0%, 1.6666% {{ opacity: 1; }}
         1.6667%, 100% {{ opacity: 0; }}
       }}
+      @keyframes minShow {{
+        0%, 1.6666% {{ opacity: 1; }}
+        1.6667%, 100% {{ opacity: 0; }}
+      }}
+      @keyframes hourShow {{
+        0%, 8.3333% {{ opacity: 1; }}
+        8.3334%, 100% {{ opacity: 0; }}
+      }}
+      @keyframes amShow {{
+        0%, 50% {{ opacity: 1; }}
+        50.0001%, 100% {{ opacity: 0; }}
+      }}
+      @keyframes pmShow {{
+        0%, 50% {{ opacity: 0; }}
+        50.0001%, 100% {{ opacity: 1; }}
+      }}
 
       {sec_rules_str}
+
+      {min_rules_str}
+
+      {hour_rules_str}
+
+      {ampm_rules_str}
 
       /* Dynamic Atmospheric Animations */
       .wind-stream {{
@@ -98,9 +162,9 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
       .clock-screen-box {{
         fill: #0a0705;
         fill-opacity: 0.92;
-        stroke: rgba(255, 170, 50, 0.4);
-        stroke-width: 1.2;
-        rx: 6px;
+        stroke: rgba(255, 170, 50, 0.45);
+        stroke-width: 1.5;
+        rx: 7px;
         filter: drop-shadow(0 4px 14px rgba(0,0,0,0.85));
       }}
 
@@ -108,7 +172,7 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         fill: none;
         stroke: rgba(255, 190, 70, 0.15);
         stroke-width: 0.8;
-        rx: 4.5px;
+        rx: 5.5px;
       }}
     </style>
 
@@ -129,31 +193,31 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
   </g>
 
   <!-- 3. Real-time Compact Digital LED Wall Clock positioned between the two picture frames -->
-  <g transform="translate(858, 146)">
+  <g transform="translate(842, 143)">
     <!-- Compact Glassmorphic Clock Base -->
-    <rect class="clock-screen-box" x="0" y="0" width="184" height="38" rx="6"/>
-    <rect class="clock-screen-inner" x="1.5" y="1.5" width="181" height="35" rx="4.5"/>
+    <rect class="clock-screen-box" x="0" y="0" width="216" height="44" rx="7"/>
+    <rect class="clock-screen-inner" x="1.5" y="1.5" width="213" height="41" rx="5.5"/>
 
-    <!-- Static Hours -->
-    <text class="digital-time" x="33.5" y="19" text-anchor="middle">{hour_str}</text>
+    <!-- Real-time Live Hours (01-12) -->
+    {hour_tags_str}
 
     <!-- Blinking Colon 1 -->
-    <text class="digital-time blink-colon" x="56.0" y="19" text-anchor="middle">:</text>
+    <text class="digital-time blink-colon" x="68.0" y="22" text-anchor="middle">:</text>
 
-    <!-- Synced Minutes -->
-    <text class="digital-time" x="78.5" y="19" text-anchor="middle">{cur_min:02d}</text>
+    <!-- Real-time Live Minutes (00-59) -->
+    {min_tags_str}
 
     <!-- Blinking Colon 2 -->
-    <text class="digital-time blink-colon" x="101.0" y="19" text-anchor="middle">:</text>
+    <text class="digital-time blink-colon" x="118.0" y="22" text-anchor="middle">:</text>
 
     <!-- Real-time Live Seconds (00-59) -->
     {sec_tags_str}
 
-    <!-- AM / PM Indicator -->
-    <text class="digital-time" x="150.5" y="19" text-anchor="middle">{ampm}</text>
+    <!-- Real-time Live AM / PM Indicator -->
+    {ampm_tags_str}
 
     <!-- Date text: centered with IST indicator -->
-    <text class="digital-date" x="92.0" y="30" text-anchor="middle">{date_str} (IST)</text>
+    <text class="digital-date" x="108.0" y="35" text-anchor="middle">{date_str} (IST)</text>
   </g>
 </svg>
 '''
