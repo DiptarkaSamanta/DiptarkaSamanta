@@ -73,7 +73,7 @@
     <rect class="clock-screen-inner" x="5" y="5" width="496" height="176"/>
 
     <!-- Time text: perfectly centered -->
-    <text class="digital-time" x="253" y="98" text-anchor="middle">11:22:53 AM</text>
+    <text class="digital-time" x="253" y="98" text-anchor="middle">11:29:09 AM</text>
 
     <!-- Date text: perfectly centered -->
     <text class="digital-date" x="253" y="148" text-anchor="middle">Wed, Nov 11, 2026</text>
