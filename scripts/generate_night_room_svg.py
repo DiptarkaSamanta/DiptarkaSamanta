@@ -35,7 +35,7 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         time_since_s = (cur_sec - s) % 60
         delay = -time_since_s
         sec_css.append(f".s-{s:02d} {{ animation: secShow 60s infinite {delay}s; }}")
-        sec_tags.append(f'<text class="digital-time anim-digit s-{s:02d}" x="270.5" y="98">{s:02d}</text>')
+        sec_tags.append(f'<text class="digital-time anim-digit s-{s:02d}" x="187.5" y="66">{s:02d}</text>')
 
     # Generate CSS rules and SVG elements for live minutes (3600s loop)
     elapsed_in_hour = cur_min * 60 + cur_sec
@@ -45,7 +45,7 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         time_since_m = (elapsed_in_hour - m * 60) % 3600
         delay = -time_since_m
         min_css.append(f".m-{m:02d} {{ animation: minShow 3600s infinite {delay}s; }}")
-        min_tags.append(f'<text class="digital-time anim-digit m-{m:02d}" x="171.5" y="98">{m:02d}</text>')
+        min_tags.append(f'<text class="digital-time anim-digit m-{m:02d}" x="117.0" y="66">{m:02d}</text>')
 
     sec_rules_str = "\n      ".join(sec_css)
     min_rules_str = "\n      ".join(min_css)
@@ -57,20 +57,20 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     <style>
       .digital-time {{
         font-family: 'Courier New', Consolas, Monaco, 'Lucida Console', monospace;
-        font-size: 52px;
+        font-size: 36px;
         font-weight: 700;
         fill: #ffc266;
-        letter-spacing: 2px;
-        filter: drop-shadow(0px 0px 12px rgba(255, 170, 40, 0.85));
+        letter-spacing: 1.5px;
+        filter: drop-shadow(0px 0px 10px rgba(255, 170, 40, 0.85));
       }}
       .digital-date {{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 600;
         fill: #ffe0b2;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.2px;
         opacity: 0.95;
-        filter: drop-shadow(0px 0px 8px rgba(255, 180, 70, 0.6));
+        filter: drop-shadow(0px 0px 6px rgba(255, 180, 70, 0.6));
       }}
 
       /* Blinking LED Colons */
@@ -146,32 +146,32 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     <rect class="wind-stream wind-2" x="0" y="320" width="280" height="2" fill="url(#windGrad)"/>
   </g>
 
-  <!-- 3. Real-time Digital LED Clock centered on wall display screen -->
-  <g transform="translate(680, 142)">
-    <!-- Dark Frame fitting artwork screen -->
-    <rect class="clock-screen-box" x="0" y="0" width="506" height="186"/>
-    <rect class="clock-screen-inner" x="5" y="5" width="496" height="176"/>
+  <!-- 3. Real-time Digital LED Wall Clock centered on wall -->
+  <g transform="translate(758, 172)">
+    <!-- Dark Frame fitting artwork wall clock -->
+    <rect class="clock-screen-box" x="0" y="0" width="350" height="126"/>
+    <rect class="clock-screen-inner" x="4" y="4" width="342" height="118"/>
 
     <!-- Static Hours -->
-    <text class="digital-time" x="72.5" y="98">{hour_str}</text>
+    <text class="digital-time" x="46.5" y="66">{hour_str}</text>
 
     <!-- Blinking Colon 1 -->
-    <text class="digital-time blink-colon" x="138.5" y="98">:</text>
+    <text class="digital-time blink-colon" x="93.5" y="66">:</text>
 
     <!-- Real-time Live Minutes (00-59) -->
     {min_tags_str}
 
     <!-- Blinking Colon 2 -->
-    <text class="digital-time blink-colon" x="237.5" y="98">:</text>
+    <text class="digital-time blink-colon" x="164.0" y="66">:</text>
 
     <!-- Real-time Live Seconds (00-59) -->
     {sec_tags_str}
 
     <!-- AM / PM Indicator -->
-    <text class="digital-time" x="369.5" y="98">{ampm}</text>
+    <text class="digital-time" x="258.0" y="66">{ampm}</text>
 
     <!-- Date text: perfectly centered -->
-    <text class="digital-date" x="253" y="148" text-anchor="middle">{date_str}</text>
+    <text class="digital-date" x="175" y="102" text-anchor="middle">{date_str}</text>
   </g>
 </svg>
 '''

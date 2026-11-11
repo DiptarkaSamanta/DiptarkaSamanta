@@ -3,20 +3,20 @@
     <style>
       .digital-time {
         font-family: 'Courier New', Consolas, Monaco, 'Lucida Console', monospace;
-        font-size: 52px;
+        font-size: 36px;
         font-weight: 700;
         fill: #ffc266;
-        letter-spacing: 2px;
-        filter: drop-shadow(0px 0px 12px rgba(255, 170, 40, 0.85));
+        letter-spacing: 1.5px;
+        filter: drop-shadow(0px 0px 10px rgba(255, 170, 40, 0.85));
       }
       .digital-date {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 600;
         fill: #ffe0b2;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.2px;
         opacity: 0.95;
-        filter: drop-shadow(0px 0px 8px rgba(255, 180, 70, 0.6));
+        filter: drop-shadow(0px 0px 6px rgba(255, 180, 70, 0.6));
       }
 
       /* Blinking LED Colons */
@@ -41,127 +41,127 @@
         1.6667%, 100% { opacity: 0; }
       }
 
-      .s-00 { animation: secShow 60s infinite -9s; }
-      .s-01 { animation: secShow 60s infinite -8s; }
-      .s-02 { animation: secShow 60s infinite -7s; }
-      .s-03 { animation: secShow 60s infinite -6s; }
-      .s-04 { animation: secShow 60s infinite -5s; }
-      .s-05 { animation: secShow 60s infinite -4s; }
-      .s-06 { animation: secShow 60s infinite -3s; }
-      .s-07 { animation: secShow 60s infinite -2s; }
-      .s-08 { animation: secShow 60s infinite -1s; }
-      .s-09 { animation: secShow 60s infinite 0s; }
-      .s-10 { animation: secShow 60s infinite -59s; }
-      .s-11 { animation: secShow 60s infinite -58s; }
-      .s-12 { animation: secShow 60s infinite -57s; }
-      .s-13 { animation: secShow 60s infinite -56s; }
-      .s-14 { animation: secShow 60s infinite -55s; }
-      .s-15 { animation: secShow 60s infinite -54s; }
-      .s-16 { animation: secShow 60s infinite -53s; }
-      .s-17 { animation: secShow 60s infinite -52s; }
-      .s-18 { animation: secShow 60s infinite -51s; }
-      .s-19 { animation: secShow 60s infinite -50s; }
-      .s-20 { animation: secShow 60s infinite -49s; }
-      .s-21 { animation: secShow 60s infinite -48s; }
-      .s-22 { animation: secShow 60s infinite -47s; }
-      .s-23 { animation: secShow 60s infinite -46s; }
-      .s-24 { animation: secShow 60s infinite -45s; }
-      .s-25 { animation: secShow 60s infinite -44s; }
-      .s-26 { animation: secShow 60s infinite -43s; }
-      .s-27 { animation: secShow 60s infinite -42s; }
-      .s-28 { animation: secShow 60s infinite -41s; }
-      .s-29 { animation: secShow 60s infinite -40s; }
-      .s-30 { animation: secShow 60s infinite -39s; }
-      .s-31 { animation: secShow 60s infinite -38s; }
-      .s-32 { animation: secShow 60s infinite -37s; }
-      .s-33 { animation: secShow 60s infinite -36s; }
-      .s-34 { animation: secShow 60s infinite -35s; }
-      .s-35 { animation: secShow 60s infinite -34s; }
-      .s-36 { animation: secShow 60s infinite -33s; }
-      .s-37 { animation: secShow 60s infinite -32s; }
-      .s-38 { animation: secShow 60s infinite -31s; }
-      .s-39 { animation: secShow 60s infinite -30s; }
-      .s-40 { animation: secShow 60s infinite -29s; }
-      .s-41 { animation: secShow 60s infinite -28s; }
-      .s-42 { animation: secShow 60s infinite -27s; }
-      .s-43 { animation: secShow 60s infinite -26s; }
-      .s-44 { animation: secShow 60s infinite -25s; }
-      .s-45 { animation: secShow 60s infinite -24s; }
-      .s-46 { animation: secShow 60s infinite -23s; }
-      .s-47 { animation: secShow 60s infinite -22s; }
-      .s-48 { animation: secShow 60s infinite -21s; }
-      .s-49 { animation: secShow 60s infinite -20s; }
-      .s-50 { animation: secShow 60s infinite -19s; }
-      .s-51 { animation: secShow 60s infinite -18s; }
-      .s-52 { animation: secShow 60s infinite -17s; }
-      .s-53 { animation: secShow 60s infinite -16s; }
-      .s-54 { animation: secShow 60s infinite -15s; }
-      .s-55 { animation: secShow 60s infinite -14s; }
-      .s-56 { animation: secShow 60s infinite -13s; }
-      .s-57 { animation: secShow 60s infinite -12s; }
-      .s-58 { animation: secShow 60s infinite -11s; }
-      .s-59 { animation: secShow 60s infinite -10s; }
+      .s-00 { animation: secShow 60s infinite -38s; }
+      .s-01 { animation: secShow 60s infinite -37s; }
+      .s-02 { animation: secShow 60s infinite -36s; }
+      .s-03 { animation: secShow 60s infinite -35s; }
+      .s-04 { animation: secShow 60s infinite -34s; }
+      .s-05 { animation: secShow 60s infinite -33s; }
+      .s-06 { animation: secShow 60s infinite -32s; }
+      .s-07 { animation: secShow 60s infinite -31s; }
+      .s-08 { animation: secShow 60s infinite -30s; }
+      .s-09 { animation: secShow 60s infinite -29s; }
+      .s-10 { animation: secShow 60s infinite -28s; }
+      .s-11 { animation: secShow 60s infinite -27s; }
+      .s-12 { animation: secShow 60s infinite -26s; }
+      .s-13 { animation: secShow 60s infinite -25s; }
+      .s-14 { animation: secShow 60s infinite -24s; }
+      .s-15 { animation: secShow 60s infinite -23s; }
+      .s-16 { animation: secShow 60s infinite -22s; }
+      .s-17 { animation: secShow 60s infinite -21s; }
+      .s-18 { animation: secShow 60s infinite -20s; }
+      .s-19 { animation: secShow 60s infinite -19s; }
+      .s-20 { animation: secShow 60s infinite -18s; }
+      .s-21 { animation: secShow 60s infinite -17s; }
+      .s-22 { animation: secShow 60s infinite -16s; }
+      .s-23 { animation: secShow 60s infinite -15s; }
+      .s-24 { animation: secShow 60s infinite -14s; }
+      .s-25 { animation: secShow 60s infinite -13s; }
+      .s-26 { animation: secShow 60s infinite -12s; }
+      .s-27 { animation: secShow 60s infinite -11s; }
+      .s-28 { animation: secShow 60s infinite -10s; }
+      .s-29 { animation: secShow 60s infinite -9s; }
+      .s-30 { animation: secShow 60s infinite -8s; }
+      .s-31 { animation: secShow 60s infinite -7s; }
+      .s-32 { animation: secShow 60s infinite -6s; }
+      .s-33 { animation: secShow 60s infinite -5s; }
+      .s-34 { animation: secShow 60s infinite -4s; }
+      .s-35 { animation: secShow 60s infinite -3s; }
+      .s-36 { animation: secShow 60s infinite -2s; }
+      .s-37 { animation: secShow 60s infinite -1s; }
+      .s-38 { animation: secShow 60s infinite 0s; }
+      .s-39 { animation: secShow 60s infinite -59s; }
+      .s-40 { animation: secShow 60s infinite -58s; }
+      .s-41 { animation: secShow 60s infinite -57s; }
+      .s-42 { animation: secShow 60s infinite -56s; }
+      .s-43 { animation: secShow 60s infinite -55s; }
+      .s-44 { animation: secShow 60s infinite -54s; }
+      .s-45 { animation: secShow 60s infinite -53s; }
+      .s-46 { animation: secShow 60s infinite -52s; }
+      .s-47 { animation: secShow 60s infinite -51s; }
+      .s-48 { animation: secShow 60s infinite -50s; }
+      .s-49 { animation: secShow 60s infinite -49s; }
+      .s-50 { animation: secShow 60s infinite -48s; }
+      .s-51 { animation: secShow 60s infinite -47s; }
+      .s-52 { animation: secShow 60s infinite -46s; }
+      .s-53 { animation: secShow 60s infinite -45s; }
+      .s-54 { animation: secShow 60s infinite -44s; }
+      .s-55 { animation: secShow 60s infinite -43s; }
+      .s-56 { animation: secShow 60s infinite -42s; }
+      .s-57 { animation: secShow 60s infinite -41s; }
+      .s-58 { animation: secShow 60s infinite -40s; }
+      .s-59 { animation: secShow 60s infinite -39s; }
 
-      .m-00 { animation: minShow 3600s infinite -2889s; }
-      .m-01 { animation: minShow 3600s infinite -2829s; }
-      .m-02 { animation: minShow 3600s infinite -2769s; }
-      .m-03 { animation: minShow 3600s infinite -2709s; }
-      .m-04 { animation: minShow 3600s infinite -2649s; }
-      .m-05 { animation: minShow 3600s infinite -2589s; }
-      .m-06 { animation: minShow 3600s infinite -2529s; }
-      .m-07 { animation: minShow 3600s infinite -2469s; }
-      .m-08 { animation: minShow 3600s infinite -2409s; }
-      .m-09 { animation: minShow 3600s infinite -2349s; }
-      .m-10 { animation: minShow 3600s infinite -2289s; }
-      .m-11 { animation: minShow 3600s infinite -2229s; }
-      .m-12 { animation: minShow 3600s infinite -2169s; }
-      .m-13 { animation: minShow 3600s infinite -2109s; }
-      .m-14 { animation: minShow 3600s infinite -2049s; }
-      .m-15 { animation: minShow 3600s infinite -1989s; }
-      .m-16 { animation: minShow 3600s infinite -1929s; }
-      .m-17 { animation: minShow 3600s infinite -1869s; }
-      .m-18 { animation: minShow 3600s infinite -1809s; }
-      .m-19 { animation: minShow 3600s infinite -1749s; }
-      .m-20 { animation: minShow 3600s infinite -1689s; }
-      .m-21 { animation: minShow 3600s infinite -1629s; }
-      .m-22 { animation: minShow 3600s infinite -1569s; }
-      .m-23 { animation: minShow 3600s infinite -1509s; }
-      .m-24 { animation: minShow 3600s infinite -1449s; }
-      .m-25 { animation: minShow 3600s infinite -1389s; }
-      .m-26 { animation: minShow 3600s infinite -1329s; }
-      .m-27 { animation: minShow 3600s infinite -1269s; }
-      .m-28 { animation: minShow 3600s infinite -1209s; }
-      .m-29 { animation: minShow 3600s infinite -1149s; }
-      .m-30 { animation: minShow 3600s infinite -1089s; }
-      .m-31 { animation: minShow 3600s infinite -1029s; }
-      .m-32 { animation: minShow 3600s infinite -969s; }
-      .m-33 { animation: minShow 3600s infinite -909s; }
-      .m-34 { animation: minShow 3600s infinite -849s; }
-      .m-35 { animation: minShow 3600s infinite -789s; }
-      .m-36 { animation: minShow 3600s infinite -729s; }
-      .m-37 { animation: minShow 3600s infinite -669s; }
-      .m-38 { animation: minShow 3600s infinite -609s; }
-      .m-39 { animation: minShow 3600s infinite -549s; }
-      .m-40 { animation: minShow 3600s infinite -489s; }
-      .m-41 { animation: minShow 3600s infinite -429s; }
-      .m-42 { animation: minShow 3600s infinite -369s; }
-      .m-43 { animation: minShow 3600s infinite -309s; }
-      .m-44 { animation: minShow 3600s infinite -249s; }
-      .m-45 { animation: minShow 3600s infinite -189s; }
-      .m-46 { animation: minShow 3600s infinite -129s; }
-      .m-47 { animation: minShow 3600s infinite -69s; }
-      .m-48 { animation: minShow 3600s infinite -9s; }
-      .m-49 { animation: minShow 3600s infinite -3549s; }
-      .m-50 { animation: minShow 3600s infinite -3489s; }
-      .m-51 { animation: minShow 3600s infinite -3429s; }
-      .m-52 { animation: minShow 3600s infinite -3369s; }
-      .m-53 { animation: minShow 3600s infinite -3309s; }
-      .m-54 { animation: minShow 3600s infinite -3249s; }
-      .m-55 { animation: minShow 3600s infinite -3189s; }
-      .m-56 { animation: minShow 3600s infinite -3129s; }
-      .m-57 { animation: minShow 3600s infinite -3069s; }
-      .m-58 { animation: minShow 3600s infinite -3009s; }
-      .m-59 { animation: minShow 3600s infinite -2949s; }
+      .m-00 { animation: minShow 3600s infinite -158s; }
+      .m-01 { animation: minShow 3600s infinite -98s; }
+      .m-02 { animation: minShow 3600s infinite -38s; }
+      .m-03 { animation: minShow 3600s infinite -3578s; }
+      .m-04 { animation: minShow 3600s infinite -3518s; }
+      .m-05 { animation: minShow 3600s infinite -3458s; }
+      .m-06 { animation: minShow 3600s infinite -3398s; }
+      .m-07 { animation: minShow 3600s infinite -3338s; }
+      .m-08 { animation: minShow 3600s infinite -3278s; }
+      .m-09 { animation: minShow 3600s infinite -3218s; }
+      .m-10 { animation: minShow 3600s infinite -3158s; }
+      .m-11 { animation: minShow 3600s infinite -3098s; }
+      .m-12 { animation: minShow 3600s infinite -3038s; }
+      .m-13 { animation: minShow 3600s infinite -2978s; }
+      .m-14 { animation: minShow 3600s infinite -2918s; }
+      .m-15 { animation: minShow 3600s infinite -2858s; }
+      .m-16 { animation: minShow 3600s infinite -2798s; }
+      .m-17 { animation: minShow 3600s infinite -2738s; }
+      .m-18 { animation: minShow 3600s infinite -2678s; }
+      .m-19 { animation: minShow 3600s infinite -2618s; }
+      .m-20 { animation: minShow 3600s infinite -2558s; }
+      .m-21 { animation: minShow 3600s infinite -2498s; }
+      .m-22 { animation: minShow 3600s infinite -2438s; }
+      .m-23 { animation: minShow 3600s infinite -2378s; }
+      .m-24 { animation: minShow 3600s infinite -2318s; }
+      .m-25 { animation: minShow 3600s infinite -2258s; }
+      .m-26 { animation: minShow 3600s infinite -2198s; }
+      .m-27 { animation: minShow 3600s infinite -2138s; }
+      .m-28 { animation: minShow 3600s infinite -2078s; }
+      .m-29 { animation: minShow 3600s infinite -2018s; }
+      .m-30 { animation: minShow 3600s infinite -1958s; }
+      .m-31 { animation: minShow 3600s infinite -1898s; }
+      .m-32 { animation: minShow 3600s infinite -1838s; }
+      .m-33 { animation: minShow 3600s infinite -1778s; }
+      .m-34 { animation: minShow 3600s infinite -1718s; }
+      .m-35 { animation: minShow 3600s infinite -1658s; }
+      .m-36 { animation: minShow 3600s infinite -1598s; }
+      .m-37 { animation: minShow 3600s infinite -1538s; }
+      .m-38 { animation: minShow 3600s infinite -1478s; }
+      .m-39 { animation: minShow 3600s infinite -1418s; }
+      .m-40 { animation: minShow 3600s infinite -1358s; }
+      .m-41 { animation: minShow 3600s infinite -1298s; }
+      .m-42 { animation: minShow 3600s infinite -1238s; }
+      .m-43 { animation: minShow 3600s infinite -1178s; }
+      .m-44 { animation: minShow 3600s infinite -1118s; }
+      .m-45 { animation: minShow 3600s infinite -1058s; }
+      .m-46 { animation: minShow 3600s infinite -998s; }
+      .m-47 { animation: minShow 3600s infinite -938s; }
+      .m-48 { animation: minShow 3600s infinite -878s; }
+      .m-49 { animation: minShow 3600s infinite -818s; }
+      .m-50 { animation: minShow 3600s infinite -758s; }
+      .m-51 { animation: minShow 3600s infinite -698s; }
+      .m-52 { animation: minShow 3600s infinite -638s; }
+      .m-53 { animation: minShow 3600s infinite -578s; }
+      .m-54 { animation: minShow 3600s infinite -518s; }
+      .m-55 { animation: minShow 3600s infinite -458s; }
+      .m-56 { animation: minShow 3600s infinite -398s; }
+      .m-57 { animation: minShow 3600s infinite -338s; }
+      .m-58 { animation: minShow 3600s infinite -278s; }
+      .m-59 { animation: minShow 3600s infinite -218s; }
 
       /* Dynamic Atmospheric Animations */
       .wind-stream {
@@ -210,149 +210,149 @@
     <rect class="wind-stream wind-2" x="0" y="320" width="280" height="2" fill="url(#windGrad)"/>
   </g>
 
-  <!-- 3. Real-time Digital LED Clock centered on wall display screen -->
-  <g transform="translate(680, 142)">
-    <!-- Dark Frame fitting artwork screen -->
-    <rect class="clock-screen-box" x="0" y="0" width="506" height="186"/>
-    <rect class="clock-screen-inner" x="5" y="5" width="496" height="176"/>
+  <!-- 3. Real-time Digital LED Wall Clock centered on wall -->
+  <g transform="translate(758, 172)">
+    <!-- Dark Frame fitting artwork wall clock -->
+    <rect class="clock-screen-box" x="0" y="0" width="350" height="126"/>
+    <rect class="clock-screen-inner" x="4" y="4" width="342" height="118"/>
 
     <!-- Static Hours -->
-    <text class="digital-time" x="72.5" y="98">11</text>
+    <text class="digital-time" x="46.5" y="66">12</text>
 
     <!-- Blinking Colon 1 -->
-    <text class="digital-time blink-colon" x="138.5" y="98">:</text>
+    <text class="digital-time blink-colon" x="93.5" y="66">:</text>
 
     <!-- Real-time Live Minutes (00-59) -->
-    <text class="digital-time anim-digit m-00" x="171.5" y="98">00</text>
-    <text class="digital-time anim-digit m-01" x="171.5" y="98">01</text>
-    <text class="digital-time anim-digit m-02" x="171.5" y="98">02</text>
-    <text class="digital-time anim-digit m-03" x="171.5" y="98">03</text>
-    <text class="digital-time anim-digit m-04" x="171.5" y="98">04</text>
-    <text class="digital-time anim-digit m-05" x="171.5" y="98">05</text>
-    <text class="digital-time anim-digit m-06" x="171.5" y="98">06</text>
-    <text class="digital-time anim-digit m-07" x="171.5" y="98">07</text>
-    <text class="digital-time anim-digit m-08" x="171.5" y="98">08</text>
-    <text class="digital-time anim-digit m-09" x="171.5" y="98">09</text>
-    <text class="digital-time anim-digit m-10" x="171.5" y="98">10</text>
-    <text class="digital-time anim-digit m-11" x="171.5" y="98">11</text>
-    <text class="digital-time anim-digit m-12" x="171.5" y="98">12</text>
-    <text class="digital-time anim-digit m-13" x="171.5" y="98">13</text>
-    <text class="digital-time anim-digit m-14" x="171.5" y="98">14</text>
-    <text class="digital-time anim-digit m-15" x="171.5" y="98">15</text>
-    <text class="digital-time anim-digit m-16" x="171.5" y="98">16</text>
-    <text class="digital-time anim-digit m-17" x="171.5" y="98">17</text>
-    <text class="digital-time anim-digit m-18" x="171.5" y="98">18</text>
-    <text class="digital-time anim-digit m-19" x="171.5" y="98">19</text>
-    <text class="digital-time anim-digit m-20" x="171.5" y="98">20</text>
-    <text class="digital-time anim-digit m-21" x="171.5" y="98">21</text>
-    <text class="digital-time anim-digit m-22" x="171.5" y="98">22</text>
-    <text class="digital-time anim-digit m-23" x="171.5" y="98">23</text>
-    <text class="digital-time anim-digit m-24" x="171.5" y="98">24</text>
-    <text class="digital-time anim-digit m-25" x="171.5" y="98">25</text>
-    <text class="digital-time anim-digit m-26" x="171.5" y="98">26</text>
-    <text class="digital-time anim-digit m-27" x="171.5" y="98">27</text>
-    <text class="digital-time anim-digit m-28" x="171.5" y="98">28</text>
-    <text class="digital-time anim-digit m-29" x="171.5" y="98">29</text>
-    <text class="digital-time anim-digit m-30" x="171.5" y="98">30</text>
-    <text class="digital-time anim-digit m-31" x="171.5" y="98">31</text>
-    <text class="digital-time anim-digit m-32" x="171.5" y="98">32</text>
-    <text class="digital-time anim-digit m-33" x="171.5" y="98">33</text>
-    <text class="digital-time anim-digit m-34" x="171.5" y="98">34</text>
-    <text class="digital-time anim-digit m-35" x="171.5" y="98">35</text>
-    <text class="digital-time anim-digit m-36" x="171.5" y="98">36</text>
-    <text class="digital-time anim-digit m-37" x="171.5" y="98">37</text>
-    <text class="digital-time anim-digit m-38" x="171.5" y="98">38</text>
-    <text class="digital-time anim-digit m-39" x="171.5" y="98">39</text>
-    <text class="digital-time anim-digit m-40" x="171.5" y="98">40</text>
-    <text class="digital-time anim-digit m-41" x="171.5" y="98">41</text>
-    <text class="digital-time anim-digit m-42" x="171.5" y="98">42</text>
-    <text class="digital-time anim-digit m-43" x="171.5" y="98">43</text>
-    <text class="digital-time anim-digit m-44" x="171.5" y="98">44</text>
-    <text class="digital-time anim-digit m-45" x="171.5" y="98">45</text>
-    <text class="digital-time anim-digit m-46" x="171.5" y="98">46</text>
-    <text class="digital-time anim-digit m-47" x="171.5" y="98">47</text>
-    <text class="digital-time anim-digit m-48" x="171.5" y="98">48</text>
-    <text class="digital-time anim-digit m-49" x="171.5" y="98">49</text>
-    <text class="digital-time anim-digit m-50" x="171.5" y="98">50</text>
-    <text class="digital-time anim-digit m-51" x="171.5" y="98">51</text>
-    <text class="digital-time anim-digit m-52" x="171.5" y="98">52</text>
-    <text class="digital-time anim-digit m-53" x="171.5" y="98">53</text>
-    <text class="digital-time anim-digit m-54" x="171.5" y="98">54</text>
-    <text class="digital-time anim-digit m-55" x="171.5" y="98">55</text>
-    <text class="digital-time anim-digit m-56" x="171.5" y="98">56</text>
-    <text class="digital-time anim-digit m-57" x="171.5" y="98">57</text>
-    <text class="digital-time anim-digit m-58" x="171.5" y="98">58</text>
-    <text class="digital-time anim-digit m-59" x="171.5" y="98">59</text>
+    <text class="digital-time anim-digit m-00" x="117.0" y="66">00</text>
+    <text class="digital-time anim-digit m-01" x="117.0" y="66">01</text>
+    <text class="digital-time anim-digit m-02" x="117.0" y="66">02</text>
+    <text class="digital-time anim-digit m-03" x="117.0" y="66">03</text>
+    <text class="digital-time anim-digit m-04" x="117.0" y="66">04</text>
+    <text class="digital-time anim-digit m-05" x="117.0" y="66">05</text>
+    <text class="digital-time anim-digit m-06" x="117.0" y="66">06</text>
+    <text class="digital-time anim-digit m-07" x="117.0" y="66">07</text>
+    <text class="digital-time anim-digit m-08" x="117.0" y="66">08</text>
+    <text class="digital-time anim-digit m-09" x="117.0" y="66">09</text>
+    <text class="digital-time anim-digit m-10" x="117.0" y="66">10</text>
+    <text class="digital-time anim-digit m-11" x="117.0" y="66">11</text>
+    <text class="digital-time anim-digit m-12" x="117.0" y="66">12</text>
+    <text class="digital-time anim-digit m-13" x="117.0" y="66">13</text>
+    <text class="digital-time anim-digit m-14" x="117.0" y="66">14</text>
+    <text class="digital-time anim-digit m-15" x="117.0" y="66">15</text>
+    <text class="digital-time anim-digit m-16" x="117.0" y="66">16</text>
+    <text class="digital-time anim-digit m-17" x="117.0" y="66">17</text>
+    <text class="digital-time anim-digit m-18" x="117.0" y="66">18</text>
+    <text class="digital-time anim-digit m-19" x="117.0" y="66">19</text>
+    <text class="digital-time anim-digit m-20" x="117.0" y="66">20</text>
+    <text class="digital-time anim-digit m-21" x="117.0" y="66">21</text>
+    <text class="digital-time anim-digit m-22" x="117.0" y="66">22</text>
+    <text class="digital-time anim-digit m-23" x="117.0" y="66">23</text>
+    <text class="digital-time anim-digit m-24" x="117.0" y="66">24</text>
+    <text class="digital-time anim-digit m-25" x="117.0" y="66">25</text>
+    <text class="digital-time anim-digit m-26" x="117.0" y="66">26</text>
+    <text class="digital-time anim-digit m-27" x="117.0" y="66">27</text>
+    <text class="digital-time anim-digit m-28" x="117.0" y="66">28</text>
+    <text class="digital-time anim-digit m-29" x="117.0" y="66">29</text>
+    <text class="digital-time anim-digit m-30" x="117.0" y="66">30</text>
+    <text class="digital-time anim-digit m-31" x="117.0" y="66">31</text>
+    <text class="digital-time anim-digit m-32" x="117.0" y="66">32</text>
+    <text class="digital-time anim-digit m-33" x="117.0" y="66">33</text>
+    <text class="digital-time anim-digit m-34" x="117.0" y="66">34</text>
+    <text class="digital-time anim-digit m-35" x="117.0" y="66">35</text>
+    <text class="digital-time anim-digit m-36" x="117.0" y="66">36</text>
+    <text class="digital-time anim-digit m-37" x="117.0" y="66">37</text>
+    <text class="digital-time anim-digit m-38" x="117.0" y="66">38</text>
+    <text class="digital-time anim-digit m-39" x="117.0" y="66">39</text>
+    <text class="digital-time anim-digit m-40" x="117.0" y="66">40</text>
+    <text class="digital-time anim-digit m-41" x="117.0" y="66">41</text>
+    <text class="digital-time anim-digit m-42" x="117.0" y="66">42</text>
+    <text class="digital-time anim-digit m-43" x="117.0" y="66">43</text>
+    <text class="digital-time anim-digit m-44" x="117.0" y="66">44</text>
+    <text class="digital-time anim-digit m-45" x="117.0" y="66">45</text>
+    <text class="digital-time anim-digit m-46" x="117.0" y="66">46</text>
+    <text class="digital-time anim-digit m-47" x="117.0" y="66">47</text>
+    <text class="digital-time anim-digit m-48" x="117.0" y="66">48</text>
+    <text class="digital-time anim-digit m-49" x="117.0" y="66">49</text>
+    <text class="digital-time anim-digit m-50" x="117.0" y="66">50</text>
+    <text class="digital-time anim-digit m-51" x="117.0" y="66">51</text>
+    <text class="digital-time anim-digit m-52" x="117.0" y="66">52</text>
+    <text class="digital-time anim-digit m-53" x="117.0" y="66">53</text>
+    <text class="digital-time anim-digit m-54" x="117.0" y="66">54</text>
+    <text class="digital-time anim-digit m-55" x="117.0" y="66">55</text>
+    <text class="digital-time anim-digit m-56" x="117.0" y="66">56</text>
+    <text class="digital-time anim-digit m-57" x="117.0" y="66">57</text>
+    <text class="digital-time anim-digit m-58" x="117.0" y="66">58</text>
+    <text class="digital-time anim-digit m-59" x="117.0" y="66">59</text>
 
     <!-- Blinking Colon 2 -->
-    <text class="digital-time blink-colon" x="237.5" y="98">:</text>
+    <text class="digital-time blink-colon" x="164.0" y="66">:</text>
 
     <!-- Real-time Live Seconds (00-59) -->
-    <text class="digital-time anim-digit s-00" x="270.5" y="98">00</text>
-    <text class="digital-time anim-digit s-01" x="270.5" y="98">01</text>
-    <text class="digital-time anim-digit s-02" x="270.5" y="98">02</text>
-    <text class="digital-time anim-digit s-03" x="270.5" y="98">03</text>
-    <text class="digital-time anim-digit s-04" x="270.5" y="98">04</text>
-    <text class="digital-time anim-digit s-05" x="270.5" y="98">05</text>
-    <text class="digital-time anim-digit s-06" x="270.5" y="98">06</text>
-    <text class="digital-time anim-digit s-07" x="270.5" y="98">07</text>
-    <text class="digital-time anim-digit s-08" x="270.5" y="98">08</text>
-    <text class="digital-time anim-digit s-09" x="270.5" y="98">09</text>
-    <text class="digital-time anim-digit s-10" x="270.5" y="98">10</text>
-    <text class="digital-time anim-digit s-11" x="270.5" y="98">11</text>
-    <text class="digital-time anim-digit s-12" x="270.5" y="98">12</text>
-    <text class="digital-time anim-digit s-13" x="270.5" y="98">13</text>
-    <text class="digital-time anim-digit s-14" x="270.5" y="98">14</text>
-    <text class="digital-time anim-digit s-15" x="270.5" y="98">15</text>
-    <text class="digital-time anim-digit s-16" x="270.5" y="98">16</text>
-    <text class="digital-time anim-digit s-17" x="270.5" y="98">17</text>
-    <text class="digital-time anim-digit s-18" x="270.5" y="98">18</text>
-    <text class="digital-time anim-digit s-19" x="270.5" y="98">19</text>
-    <text class="digital-time anim-digit s-20" x="270.5" y="98">20</text>
-    <text class="digital-time anim-digit s-21" x="270.5" y="98">21</text>
-    <text class="digital-time anim-digit s-22" x="270.5" y="98">22</text>
-    <text class="digital-time anim-digit s-23" x="270.5" y="98">23</text>
-    <text class="digital-time anim-digit s-24" x="270.5" y="98">24</text>
-    <text class="digital-time anim-digit s-25" x="270.5" y="98">25</text>
-    <text class="digital-time anim-digit s-26" x="270.5" y="98">26</text>
-    <text class="digital-time anim-digit s-27" x="270.5" y="98">27</text>
-    <text class="digital-time anim-digit s-28" x="270.5" y="98">28</text>
-    <text class="digital-time anim-digit s-29" x="270.5" y="98">29</text>
-    <text class="digital-time anim-digit s-30" x="270.5" y="98">30</text>
-    <text class="digital-time anim-digit s-31" x="270.5" y="98">31</text>
-    <text class="digital-time anim-digit s-32" x="270.5" y="98">32</text>
-    <text class="digital-time anim-digit s-33" x="270.5" y="98">33</text>
-    <text class="digital-time anim-digit s-34" x="270.5" y="98">34</text>
-    <text class="digital-time anim-digit s-35" x="270.5" y="98">35</text>
-    <text class="digital-time anim-digit s-36" x="270.5" y="98">36</text>
-    <text class="digital-time anim-digit s-37" x="270.5" y="98">37</text>
-    <text class="digital-time anim-digit s-38" x="270.5" y="98">38</text>
-    <text class="digital-time anim-digit s-39" x="270.5" y="98">39</text>
-    <text class="digital-time anim-digit s-40" x="270.5" y="98">40</text>
-    <text class="digital-time anim-digit s-41" x="270.5" y="98">41</text>
-    <text class="digital-time anim-digit s-42" x="270.5" y="98">42</text>
-    <text class="digital-time anim-digit s-43" x="270.5" y="98">43</text>
-    <text class="digital-time anim-digit s-44" x="270.5" y="98">44</text>
-    <text class="digital-time anim-digit s-45" x="270.5" y="98">45</text>
-    <text class="digital-time anim-digit s-46" x="270.5" y="98">46</text>
-    <text class="digital-time anim-digit s-47" x="270.5" y="98">47</text>
-    <text class="digital-time anim-digit s-48" x="270.5" y="98">48</text>
-    <text class="digital-time anim-digit s-49" x="270.5" y="98">49</text>
-    <text class="digital-time anim-digit s-50" x="270.5" y="98">50</text>
-    <text class="digital-time anim-digit s-51" x="270.5" y="98">51</text>
-    <text class="digital-time anim-digit s-52" x="270.5" y="98">52</text>
-    <text class="digital-time anim-digit s-53" x="270.5" y="98">53</text>
-    <text class="digital-time anim-digit s-54" x="270.5" y="98">54</text>
-    <text class="digital-time anim-digit s-55" x="270.5" y="98">55</text>
-    <text class="digital-time anim-digit s-56" x="270.5" y="98">56</text>
-    <text class="digital-time anim-digit s-57" x="270.5" y="98">57</text>
-    <text class="digital-time anim-digit s-58" x="270.5" y="98">58</text>
-    <text class="digital-time anim-digit s-59" x="270.5" y="98">59</text>
+    <text class="digital-time anim-digit s-00" x="187.5" y="66">00</text>
+    <text class="digital-time anim-digit s-01" x="187.5" y="66">01</text>
+    <text class="digital-time anim-digit s-02" x="187.5" y="66">02</text>
+    <text class="digital-time anim-digit s-03" x="187.5" y="66">03</text>
+    <text class="digital-time anim-digit s-04" x="187.5" y="66">04</text>
+    <text class="digital-time anim-digit s-05" x="187.5" y="66">05</text>
+    <text class="digital-time anim-digit s-06" x="187.5" y="66">06</text>
+    <text class="digital-time anim-digit s-07" x="187.5" y="66">07</text>
+    <text class="digital-time anim-digit s-08" x="187.5" y="66">08</text>
+    <text class="digital-time anim-digit s-09" x="187.5" y="66">09</text>
+    <text class="digital-time anim-digit s-10" x="187.5" y="66">10</text>
+    <text class="digital-time anim-digit s-11" x="187.5" y="66">11</text>
+    <text class="digital-time anim-digit s-12" x="187.5" y="66">12</text>
+    <text class="digital-time anim-digit s-13" x="187.5" y="66">13</text>
+    <text class="digital-time anim-digit s-14" x="187.5" y="66">14</text>
+    <text class="digital-time anim-digit s-15" x="187.5" y="66">15</text>
+    <text class="digital-time anim-digit s-16" x="187.5" y="66">16</text>
+    <text class="digital-time anim-digit s-17" x="187.5" y="66">17</text>
+    <text class="digital-time anim-digit s-18" x="187.5" y="66">18</text>
+    <text class="digital-time anim-digit s-19" x="187.5" y="66">19</text>
+    <text class="digital-time anim-digit s-20" x="187.5" y="66">20</text>
+    <text class="digital-time anim-digit s-21" x="187.5" y="66">21</text>
+    <text class="digital-time anim-digit s-22" x="187.5" y="66">22</text>
+    <text class="digital-time anim-digit s-23" x="187.5" y="66">23</text>
+    <text class="digital-time anim-digit s-24" x="187.5" y="66">24</text>
+    <text class="digital-time anim-digit s-25" x="187.5" y="66">25</text>
+    <text class="digital-time anim-digit s-26" x="187.5" y="66">26</text>
+    <text class="digital-time anim-digit s-27" x="187.5" y="66">27</text>
+    <text class="digital-time anim-digit s-28" x="187.5" y="66">28</text>
+    <text class="digital-time anim-digit s-29" x="187.5" y="66">29</text>
+    <text class="digital-time anim-digit s-30" x="187.5" y="66">30</text>
+    <text class="digital-time anim-digit s-31" x="187.5" y="66">31</text>
+    <text class="digital-time anim-digit s-32" x="187.5" y="66">32</text>
+    <text class="digital-time anim-digit s-33" x="187.5" y="66">33</text>
+    <text class="digital-time anim-digit s-34" x="187.5" y="66">34</text>
+    <text class="digital-time anim-digit s-35" x="187.5" y="66">35</text>
+    <text class="digital-time anim-digit s-36" x="187.5" y="66">36</text>
+    <text class="digital-time anim-digit s-37" x="187.5" y="66">37</text>
+    <text class="digital-time anim-digit s-38" x="187.5" y="66">38</text>
+    <text class="digital-time anim-digit s-39" x="187.5" y="66">39</text>
+    <text class="digital-time anim-digit s-40" x="187.5" y="66">40</text>
+    <text class="digital-time anim-digit s-41" x="187.5" y="66">41</text>
+    <text class="digital-time anim-digit s-42" x="187.5" y="66">42</text>
+    <text class="digital-time anim-digit s-43" x="187.5" y="66">43</text>
+    <text class="digital-time anim-digit s-44" x="187.5" y="66">44</text>
+    <text class="digital-time anim-digit s-45" x="187.5" y="66">45</text>
+    <text class="digital-time anim-digit s-46" x="187.5" y="66">46</text>
+    <text class="digital-time anim-digit s-47" x="187.5" y="66">47</text>
+    <text class="digital-time anim-digit s-48" x="187.5" y="66">48</text>
+    <text class="digital-time anim-digit s-49" x="187.5" y="66">49</text>
+    <text class="digital-time anim-digit s-50" x="187.5" y="66">50</text>
+    <text class="digital-time anim-digit s-51" x="187.5" y="66">51</text>
+    <text class="digital-time anim-digit s-52" x="187.5" y="66">52</text>
+    <text class="digital-time anim-digit s-53" x="187.5" y="66">53</text>
+    <text class="digital-time anim-digit s-54" x="187.5" y="66">54</text>
+    <text class="digital-time anim-digit s-55" x="187.5" y="66">55</text>
+    <text class="digital-time anim-digit s-56" x="187.5" y="66">56</text>
+    <text class="digital-time anim-digit s-57" x="187.5" y="66">57</text>
+    <text class="digital-time anim-digit s-58" x="187.5" y="66">58</text>
+    <text class="digital-time anim-digit s-59" x="187.5" y="66">59</text>
 
     <!-- AM / PM Indicator -->
-    <text class="digital-time" x="369.5" y="98">AM</text>
+    <text class="digital-time" x="258.0" y="66">PM</text>
 
     <!-- Date text: perfectly centered -->
-    <text class="digital-date" x="253" y="148" text-anchor="middle">Wed, Nov 11, 2026</text>
+    <text class="digital-date" x="175" y="102" text-anchor="middle">Wed, Nov 11, 2026</text>
   </g>
 </svg>

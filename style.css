@@ -25,40 +25,40 @@ body { display: grid; place-items: center; overflow-x: hidden; }
 /* Covers the generated/static clock in the artwork and replaces it with JS time. */
 .live-clock {
   position: absolute;
-  left: 44.27%;
-  top: 13.87%;
-  width: 32.94%;
-  height: 18.16%;
+  left: 49.35%;
+  top: 16.80%;
+  width: 22.79%;
+  height: 12.30%;
   background: #080604;
-  border: 4px solid #3d2719;
+  border: 3.5px solid #3d2719;
   outline: 1.5px solid rgba(255, 170, 50, 0.25);
-  outline-offset: -5px;
+  outline-offset: -4px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3%;
+  gap: 2%;
   box-shadow: 0 8px 20px rgba(0,0,0,0.9);
 }
 #time {
   font-family: 'Courier New', Consolas, Monaco, 'Lucida Console', monospace;
   font-weight: 700;
-  font-size: clamp(16px, 3.4vw, 50px);
+  font-size: clamp(13px, 2.3vw, 36px);
   color: #ffc266;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   white-space: nowrap;
-  text-shadow: 0 0 12px rgba(255, 170, 40, 0.85);
+  text-shadow: 0 0 10px rgba(255, 170, 40, 0.85);
 }
 #date {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  font-size: clamp(9px, 1.4vw, 21px);
+  font-size: clamp(7px, 1.0vw, 16px);
   font-weight: 600;
   color: #ffe0b2;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   opacity: 0.95;
   white-space: nowrap;
-  text-shadow: 0 0 8px rgba(255, 180, 70, 0.6);
+  text-shadow: 0 0 6px rgba(255, 180, 70, 0.6);
 }
 
 /* Atmospheric wind overlay */
