@@ -37,66 +37,66 @@
         1.6667%, 100% { opacity: 0; }
       }
 
-      .s-00 { animation: secShow 60s infinite -51s; }
-      .s-01 { animation: secShow 60s infinite -50s; }
-      .s-02 { animation: secShow 60s infinite -49s; }
-      .s-03 { animation: secShow 60s infinite -48s; }
-      .s-04 { animation: secShow 60s infinite -47s; }
-      .s-05 { animation: secShow 60s infinite -46s; }
-      .s-06 { animation: secShow 60s infinite -45s; }
-      .s-07 { animation: secShow 60s infinite -44s; }
-      .s-08 { animation: secShow 60s infinite -43s; }
-      .s-09 { animation: secShow 60s infinite -42s; }
-      .s-10 { animation: secShow 60s infinite -41s; }
-      .s-11 { animation: secShow 60s infinite -40s; }
-      .s-12 { animation: secShow 60s infinite -39s; }
-      .s-13 { animation: secShow 60s infinite -38s; }
-      .s-14 { animation: secShow 60s infinite -37s; }
-      .s-15 { animation: secShow 60s infinite -36s; }
-      .s-16 { animation: secShow 60s infinite -35s; }
-      .s-17 { animation: secShow 60s infinite -34s; }
-      .s-18 { animation: secShow 60s infinite -33s; }
-      .s-19 { animation: secShow 60s infinite -32s; }
-      .s-20 { animation: secShow 60s infinite -31s; }
-      .s-21 { animation: secShow 60s infinite -30s; }
-      .s-22 { animation: secShow 60s infinite -29s; }
-      .s-23 { animation: secShow 60s infinite -28s; }
-      .s-24 { animation: secShow 60s infinite -27s; }
-      .s-25 { animation: secShow 60s infinite -26s; }
-      .s-26 { animation: secShow 60s infinite -25s; }
-      .s-27 { animation: secShow 60s infinite -24s; }
-      .s-28 { animation: secShow 60s infinite -23s; }
-      .s-29 { animation: secShow 60s infinite -22s; }
-      .s-30 { animation: secShow 60s infinite -21s; }
-      .s-31 { animation: secShow 60s infinite -20s; }
-      .s-32 { animation: secShow 60s infinite -19s; }
-      .s-33 { animation: secShow 60s infinite -18s; }
-      .s-34 { animation: secShow 60s infinite -17s; }
-      .s-35 { animation: secShow 60s infinite -16s; }
-      .s-36 { animation: secShow 60s infinite -15s; }
-      .s-37 { animation: secShow 60s infinite -14s; }
-      .s-38 { animation: secShow 60s infinite -13s; }
-      .s-39 { animation: secShow 60s infinite -12s; }
-      .s-40 { animation: secShow 60s infinite -11s; }
-      .s-41 { animation: secShow 60s infinite -10s; }
-      .s-42 { animation: secShow 60s infinite -9s; }
-      .s-43 { animation: secShow 60s infinite -8s; }
-      .s-44 { animation: secShow 60s infinite -7s; }
-      .s-45 { animation: secShow 60s infinite -6s; }
-      .s-46 { animation: secShow 60s infinite -5s; }
-      .s-47 { animation: secShow 60s infinite -4s; }
-      .s-48 { animation: secShow 60s infinite -3s; }
-      .s-49 { animation: secShow 60s infinite -2s; }
-      .s-50 { animation: secShow 60s infinite -1s; }
-      .s-51 { animation: secShow 60s infinite 0s; }
-      .s-52 { animation: secShow 60s infinite -59s; }
-      .s-53 { animation: secShow 60s infinite -58s; }
-      .s-54 { animation: secShow 60s infinite -57s; }
-      .s-55 { animation: secShow 60s infinite -56s; }
-      .s-56 { animation: secShow 60s infinite -55s; }
-      .s-57 { animation: secShow 60s infinite -54s; }
-      .s-58 { animation: secShow 60s infinite -53s; }
-      .s-59 { animation: secShow 60s infinite -52s; }
+      .s-00 { animation: secShow 60s infinite -22s; }
+      .s-01 { animation: secShow 60s infinite -21s; }
+      .s-02 { animation: secShow 60s infinite -20s; }
+      .s-03 { animation: secShow 60s infinite -19s; }
+      .s-04 { animation: secShow 60s infinite -18s; }
+      .s-05 { animation: secShow 60s infinite -17s; }
+      .s-06 { animation: secShow 60s infinite -16s; }
+      .s-07 { animation: secShow 60s infinite -15s; }
+      .s-08 { animation: secShow 60s infinite -14s; }
+      .s-09 { animation: secShow 60s infinite -13s; }
+      .s-10 { animation: secShow 60s infinite -12s; }
+      .s-11 { animation: secShow 60s infinite -11s; }
+      .s-12 { animation: secShow 60s infinite -10s; }
+      .s-13 { animation: secShow 60s infinite -9s; }
+      .s-14 { animation: secShow 60s infinite -8s; }
+      .s-15 { animation: secShow 60s infinite -7s; }
+      .s-16 { animation: secShow 60s infinite -6s; }
+      .s-17 { animation: secShow 60s infinite -5s; }
+      .s-18 { animation: secShow 60s infinite -4s; }
+      .s-19 { animation: secShow 60s infinite -3s; }
+      .s-20 { animation: secShow 60s infinite -2s; }
+      .s-21 { animation: secShow 60s infinite -1s; }
+      .s-22 { animation: secShow 60s infinite 0s; }
+      .s-23 { animation: secShow 60s infinite -59s; }
+      .s-24 { animation: secShow 60s infinite -58s; }
+      .s-25 { animation: secShow 60s infinite -57s; }
+      .s-26 { animation: secShow 60s infinite -56s; }
+      .s-27 { animation: secShow 60s infinite -55s; }
+      .s-28 { animation: secShow 60s infinite -54s; }
+      .s-29 { animation: secShow 60s infinite -53s; }
+      .s-30 { animation: secShow 60s infinite -52s; }
+      .s-31 { animation: secShow 60s infinite -51s; }
+      .s-32 { animation: secShow 60s infinite -50s; }
+      .s-33 { animation: secShow 60s infinite -49s; }
+      .s-34 { animation: secShow 60s infinite -48s; }
+      .s-35 { animation: secShow 60s infinite -47s; }
+      .s-36 { animation: secShow 60s infinite -46s; }
+      .s-37 { animation: secShow 60s infinite -45s; }
+      .s-38 { animation: secShow 60s infinite -44s; }
+      .s-39 { animation: secShow 60s infinite -43s; }
+      .s-40 { animation: secShow 60s infinite -42s; }
+      .s-41 { animation: secShow 60s infinite -41s; }
+      .s-42 { animation: secShow 60s infinite -40s; }
+      .s-43 { animation: secShow 60s infinite -39s; }
+      .s-44 { animation: secShow 60s infinite -38s; }
+      .s-45 { animation: secShow 60s infinite -37s; }
+      .s-46 { animation: secShow 60s infinite -36s; }
+      .s-47 { animation: secShow 60s infinite -35s; }
+      .s-48 { animation: secShow 60s infinite -34s; }
+      .s-49 { animation: secShow 60s infinite -33s; }
+      .s-50 { animation: secShow 60s infinite -32s; }
+      .s-51 { animation: secShow 60s infinite -31s; }
+      .s-52 { animation: secShow 60s infinite -30s; }
+      .s-53 { animation: secShow 60s infinite -29s; }
+      .s-54 { animation: secShow 60s infinite -28s; }
+      .s-55 { animation: secShow 60s infinite -27s; }
+      .s-56 { animation: secShow 60s infinite -26s; }
+      .s-57 { animation: secShow 60s infinite -25s; }
+      .s-58 { animation: secShow 60s infinite -24s; }
+      .s-59 { animation: secShow 60s infinite -23s; }
 
       /* Dynamic Atmospheric Animations */
       .wind-stream {
@@ -158,7 +158,7 @@
     <text class="digital-time blink-colon" x="46.0" y="21" text-anchor="middle">:</text>
 
     <!-- Synced Minutes -->
-    <text class="digital-time" x="68.5" y="21" text-anchor="middle">34</text>
+    <text class="digital-time" x="68.5" y="21" text-anchor="middle">36</text>
 
     <!-- Blinking Colon 2 -->
     <text class="digital-time blink-colon" x="91.0" y="21" text-anchor="middle">:</text>
