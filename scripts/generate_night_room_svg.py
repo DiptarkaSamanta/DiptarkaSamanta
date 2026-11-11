@@ -10,7 +10,12 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     except Exception:
         tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
     now = datetime.datetime.now(tz)
-    time_str = now.strftime("%I:%M:%S %p")
+    
+    hour_12 = now.hour % 12 or 12
+    hour_str = f"{hour_12:02d}"
+    cur_min = now.minute
+    cur_sec = now.second
+    ampm = now.strftime("%p")
     date_str = now.strftime("%a, %b %d, %Y")
 
     # Read PNG image and encode to Base64 so SVG is 100% self-contained
@@ -22,6 +27,30 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     else:
         # Fallback raw github url if local file missing
         img_data_uri = "https://raw.githubusercontent.com/DiptarkaSamanta/DiptarkaSamanta/main/night-room.png"
+
+    # Generate CSS rules and SVG elements for live seconds (60s loop)
+    sec_css = []
+    sec_tags = []
+    for s in range(60):
+        time_since_s = (cur_sec - s) % 60
+        delay = -time_since_s
+        sec_css.append(f".s-{s:02d} {{ animation: secShow 60s infinite {delay}s; }}")
+        sec_tags.append(f'<text class="digital-time anim-digit s-{s:02d}" x="270.5" y="98">{s:02d}</text>')
+
+    # Generate CSS rules and SVG elements for live minutes (3600s loop)
+    elapsed_in_hour = cur_min * 60 + cur_sec
+    min_css = []
+    min_tags = []
+    for m in range(60):
+        time_since_m = (elapsed_in_hour - m * 60) % 3600
+        delay = -time_since_m
+        min_css.append(f".m-{m:02d} {{ animation: minShow 3600s infinite {delay}s; }}")
+        min_tags.append(f'<text class="digital-time anim-digit m-{m:02d}" x="171.5" y="98">{m:02d}</text>')
+
+    sec_rules_str = "\n      ".join(sec_css)
+    min_rules_str = "\n      ".join(min_css)
+    sec_tags_str = "\n    ".join(sec_tags)
+    min_tags_str = "\n    ".join(min_tags)
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="100%" height="100%">
   <defs>
@@ -43,6 +72,32 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
         opacity: 0.95;
         filter: drop-shadow(0px 0px 8px rgba(255, 180, 70, 0.6));
       }}
+
+      /* Blinking LED Colons */
+      .blink-colon {{
+        animation: blinkColon 1s steps(1) infinite;
+      }}
+      @keyframes blinkColon {{
+        0%, 49% {{ opacity: 1; }}
+        50%, 100% {{ opacity: 0.25; }}
+      }}
+
+      /* Real-Time Digit Visibility Animations */
+      .anim-digit {{
+        opacity: 0;
+      }}
+      @keyframes secShow {{
+        0%, 1.6666% {{ opacity: 1; }}
+        1.6667%, 100% {{ opacity: 0; }}
+      }}
+      @keyframes minShow {{
+        0%, 1.6666% {{ opacity: 1; }}
+        1.6667%, 100% {{ opacity: 0; }}
+      }}
+
+      {sec_rules_str}
+
+      {min_rules_str}
 
       /* Dynamic Atmospheric Animations */
       .wind-stream {{
@@ -97,8 +152,23 @@ def generate_night_room_svg(output_path="night-room-ambience.svg", png_path="nig
     <rect class="clock-screen-box" x="0" y="0" width="506" height="186"/>
     <rect class="clock-screen-inner" x="5" y="5" width="496" height="176"/>
 
-    <!-- Time text: perfectly centered -->
-    <text class="digital-time" x="253" y="98" text-anchor="middle">{time_str}</text>
+    <!-- Static Hours -->
+    <text class="digital-time" x="72.5" y="98">{hour_str}</text>
+
+    <!-- Blinking Colon 1 -->
+    <text class="digital-time blink-colon" x="138.5" y="98">:</text>
+
+    <!-- Real-time Live Minutes (00-59) -->
+    {min_tags_str}
+
+    <!-- Blinking Colon 2 -->
+    <text class="digital-time blink-colon" x="237.5" y="98">:</text>
+
+    <!-- Real-time Live Seconds (00-59) -->
+    {sec_tags_str}
+
+    <!-- AM / PM Indicator -->
+    <text class="digital-time" x="369.5" y="98">{ampm}</text>
 
     <!-- Date text: perfectly centered -->
     <text class="digital-date" x="253" y="148" text-anchor="middle">{date_str}</text>
