@@ -28,9 +28,9 @@ body { display: grid; place-items: center; overflow-x: hidden; }
   left: 61.85%;
   top: 16.11%;
   transform: translate(-50%, -50%);
-  width: clamp(160px, 14.0vw, 216px);
-  height: clamp(36px, 4.3vw, 44px);
-  background: rgba(10, 7, 5, 0.9);
+  width: clamp(170px, 15.6vw, 240px);
+  height: clamp(38px, 4.7vw, 48px);
+  background: rgba(10, 7, 5, 0.92);
   border: 1.5px solid rgba(255, 170, 50, 0.45);
   border-radius: 7px;
   display: flex;
@@ -44,7 +44,7 @@ body { display: grid; place-items: center; overflow-x: hidden; }
 #time {
   font-family: 'Courier New', Consolas, Monaco, 'Lucida Console', monospace;
   font-weight: 700;
-  font-size: clamp(13px, 1.25vw, 19px);
+  font-size: clamp(14px, 1.35vw, 21px);
   color: #ffc266;
   letter-spacing: 0.8px;
   white-space: nowrap;
@@ -52,7 +52,7 @@ body { display: grid; place-items: center; overflow-x: hidden; }
 }
 #date {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  font-size: clamp(8px, 0.72vw, 11px);
+  font-size: clamp(8.5px, 0.78vw, 12px);
   font-weight: 600;
   color: #ffe0b2;
   letter-spacing: 0.6px;
