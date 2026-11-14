@@ -179,3 +179,4 @@ export default function handler(req, res) {
   res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0');
   res.status(200).send(svgContent);
 }
+

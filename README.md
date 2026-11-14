@@ -11,7 +11,7 @@
 ### 🌙 Cozy Night Coding Room Ambience:
 <p align="center">
   <a href="https://diptarkasamanta.github.io/DiptarkaSamanta/">
-    <img src="./night-room-ambience.svg" alt="Cozy Night Coding Room Ambience" width="100%" />
+    <img src="https://diptarkasamanta.vercel.app/api/clock" alt="Cozy Night Coding Room Ambience" width="100%" />
   </a>
 </p>
 
